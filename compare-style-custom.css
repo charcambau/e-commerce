@@ -1,0 +1,56 @@
+#compare_top_container {
+  position: absolute;
+  width: 105px;
+  height: 100%;
+  top: 0;
+  left: 756px;
+  display: flex;
+  flex-direction: column;
+}
+
+element.style {
+  height: 2402px;
+}
+
+#compare_top_container .compare-container {
+    position: relative;
+    flex: 1 0 auto;
+}
+
+
+#compare_top_container .compare-container #compare {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 25px;
+}
+
+.compare_products_button {
+  background: #4d8eca;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 3px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 190px;
+  margin: 0 auto;
+  font-family: 'FuturaBQBold', Arial, Helvetica, sans-serif;
+  font-weight: bold !important;
+}
+
+#compare_top_container .compare-container .empty_compare_zone, #compare_top_container .compare-container .compare_products_button {
+  border-radius: px !important;
+  background-color: #CF006E !important;
+  padding: 20px 35px !important;
+  width: auto !important;
+  cursor: pointer;
+}
+
+a {
+  color: #326FA8;
+  text-decoration: none;
+  font-size: 13px;
+}
