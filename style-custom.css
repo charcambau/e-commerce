@@ -1,0 +1,92 @@
+
+#stickySaE {
+  padding: 0;
+
+  width: 140px;
+  height: 80px;
+  
+  border-radius: 10px 0 0 10px;
+  border: none;
+  
+  right: 0px;
+
+  text-align: center;
+
+  background: #CF006E;
+  box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.3);
+
+  transition: height .2s linear;
+}
+
+#stickySaE a {
+  
+  font-family: FuturaBQMedium, sans-serif !important;
+  color: #fff;
+}
+
+#stickySaE p {
+  margin-bottom: 10px;
+
+  position: relative;
+
+  text-align: center;
+
+  padding-bottom: 1em;
+}
+
+
+#stickySaE a::after {
+  
+  position: absolute;
+
+  right: 0px;
+  top: auto;
+  
+
+  content: "Find out more";
+  height: auto !important;
+  width: 100% !important;
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none !important;
+  border-radius: 0 0 0 10px;
+  transform: translateY(-150%) !important;
+  z-index: -1;
+
+  background-color: #326FA8;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: initial;
+
+  visibility: hidden;
+  transition: transform .1s ease-in-out;
+}
+
+#stickySaE img {
+  position: relative;
+  
+
+  height: 34px;
+  margin: 0 auto;
+  float: none;
+}
+
+a {
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+#stickySaE:hover {
+  right: 0px;
+  height: 100px;
+
+  transition: height .2s linear;
+}
+
+#stickySaE:hover ::after{
+  visibility: visible;
+  transform: translateY(-50%) !important;
+
+  transition: transform .1s ease-in-out;
+}
