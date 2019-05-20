@@ -4,76 +4,176 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="author" content="Charlotte Cambau, Giorgia Ballante">
-  <meta name="keywords" content="icons, e-commerce, test, pdp">
-  <link rel="stylesheet" href="style.css">
-  <title>icons-product detail page test</title>
+  <link rel="stylesheet" href="original.css">
+  <title>icons-pdp/test 1</title>
 </head>
-<body id="icons">
-  <div class="iconsWrapper">
-    <section class="wrap wrapperShipping">
-      <div class="circle">
-        <img src="images/shipping.png" alt="icon of an origami plane" width="50" class="icon iconShip">
+<body>
+  <ul>
+				
+    <script type="text/javascript">	
+      product.Status = "Not Available";
+      
+          product.Status = "Available";
+                              
+    </script>
+    
+<li class="insurance-section">
+<div id="insurance-content">
+ <div id="insurance-switch" tabindex="0">
+    <span>
+      Use insurance
+    </span>
+    <a href="javascript:void(0)" class="switch-outer">
+        <span class="switch-inner"></span>
+    </a>
+  </div>	    
+<div class="error hide">	   		
+   ???INSURANCE_ITEM_LIMIT???
+</div>
+<div class="error not-insurable hide">	   		
+   Insurance cannot be used without selecting prescription lenses
+</div>
+</div>
+</li>
+
+
+<script>
+
+$(document).on('keypress', '#insurance-switch', function(e) {
+if(e.which === 13) {
+  $(this).trigger( 'click' );
+}
+});
+
+</script>			
+      
+  <li class="frame-section">
+           <span class="title">Frame</span>
+          <!-- Price -->
+  <span id="price" class="price bold product-price" style="text-decoration: initial;">
+    $153.00
+  </span>
+  
+      <input id="pdp-frame-price" value="153.00" type="hidden">
+      <!-- End Price -->
+        <script type="text/javascript"> 
+        // Analytics framework
+          var price = $.trim($('.price').text());
+          
+          var x = price.indexOf('\n');
+          price = price.substring(0, x != -1 ? x: price.length);
+          /*utag_data.product_unit_price = price;
+          utag_data.product_list_price = price;
+          utag_data.product_price = price;	*/							
+          product.Price = price.replace("$","");								
+          product.PriceFull = price.replace("$","");
+          
+        // END Analytics framework
+        </script>
+      
+        </li>
+        
+          <li class="frame-offer-section hide">
+            <span class="title">Frame Offer</span>
+            <span class="price"></span>
+          </li>
+          <li class="lens-section hide">
+            <span class="title">lens</span>
+            <span class="price" style="text-decoration: initial;">$0.00</span>
+          </li>
+                          <li class="perk-saving-section hide">
+            <span class="title">Perk applied</span>
+            <span class="price"></span>
+          </li>
+          <li class="lens-offer-section hide">
+            <span class="title">Lens Offer</span>
+            <span class="price"></span>
+          </li>
+          <li class="addons-section hide">
+            <span class="title">Addons</span>
+            <span class="price"></span>
+          </li>
+          
+          <!-- && (inventoryDataBean.totalQuantityOnHand.value > 0)    inserito precedentemente nell'if-->
+          
+            <li class="lens-subsection">
+              <div class="selected-lens-info">
+          <p class="title">Single vision</p>
+          <div class="no-lens hide">
+                    <p>No lens selected</p>
+                </div>			
+          <div class="lens-hidden-data hide">
+                    <input type="hidden" name="lensCatentryId" class="lensCatentryId" value="754359">
+                    <input type="hidden" name="lensPrice" class="lensPrice" value="0.00" id="selectedLensPriceInHid">
+                    <input type="hidden" name="framePromoPrice" class="framePromoPrice" value="">
+                    <input type="hidden" name="lensSaving" class="lensSaving" value="">
+                    <input type="hidden" name="lensColor" class="lensColor" value="">
+                    <input type="hidden" name="lens" class="lens_sku_id" value="754360">
+                    <input type="hidden" name="addOns" class="addOns" value="">
+                    <input type="hidden" name="lensUPC" class="lensUPC" value="99">
+                </div>
+          <div class="existing-lens-selection-text">
+                    <div id="show-lens-options-PDP-main" class="lens-options" data-rxable="true">
+                      <span class="lens-material-container">Material: <p class="existing-lens-material"></p></span>
+                      <span class="lens-color-container">Color: <p class="existing-lens-color"></p></span>
+                      <div class="existing-lens-addons"></div>
+                    </div>
+                </div>					            
+                <div class="edit-lens">
+                  <a class="edit-lens-link" tabindex="0">edit</a>
+                  <a class="remove-lens-link" tabindex="0">Remove</a>
+                </div>
+                
+                <div class="prescription-disclaimer">
+            We'll ask for your prescription after check-out
+          </div>
+            </div>
+        
+        <!-- selection lenses and add to cart -->				
+        <a href="#" class="st-button st-button-small select-edit-lens new-lens-selection-text edit-lens-selection" data-parttype="" data-catentryid="1805196" data-rxable="true" rel="#select-a-lens-type" data-productname="RB1971 54 SQUARE" data-is_sunglasses="false">+ add lenses</a>
+        <div class="pdp-sidebar-divider"></div>
+      </li>
+    
+    <li class="inventory-check-container hide">
+      <div class="pdp-line-copy"></div>
+      <div class="product-not-available">
+        <label for="product-not-available">This product is not available at the moment.</label>
       </div>
-
-      <h5>free shipping</h5>
-
-      <article class="info infoShipping">
-        <h6>Free shippping</h6>
-
-        <p>For regular shipping  (5-7 business days), <br> the shipping is free !</p>
-
-        <p class="little">Only $7.99 for 2nd Day Air (2 days), and $9.99 for Next Day Air shipping (1 day)</p>
-      </article>
-    </section>
-
-    <section class="wrap wrapperReturns">
-      <div class="circle">
-        <img src="images/returns.png" alt="icon of a return arrow" width="50" class="icon iconReturn">
+      <div class="pdp-line-copy"></div>
+    </li>
+    <li class="grand-total">
+              <div>
+                
+                  <div class="grandTotal" aria-live="polite" id="WC_CachedItemDisplay_div_4">
+                    <p class="total-savings clearfix hide">
+                        <span class="savings-label">Savings</span>
+                        <span class="total_figures"></span>
+                    </p>
+                    <p class="total-savings-ria clearfix hide">
+                        <span class="savings-label">Insurance Savings</span>
+                        <span class="total_figures"></span>
+                    </p>
+            <p class="main-total">
+              Subtotal:
+              <span class="subtotal total_figures estimated-cost total-price">$153.00</span>
+            </p>
+          </div>
+          <!-- END selection lenses and add to cart --> 			
+              <div class="addToCart" id="addTocartAllowed" data-rxable="true">
+                <a href="#" class="st-button add-to-cart st-button-orange" data-parttype="" data-catentryid="1805196" data-rxable="true" data-productname="RB1971 54 SQUARE" data-is_sunglasses="false">
+                  Add to bag
+                </a>
+  
+              </div>
+            <!-- Find in Stores button -->
+          <a class="st-button st-button-base find-in-store" href="">
+            Find in Store
+          </a>
+        <!-- End Find in Stores button -->
       </div>
-
-      <h5 id="returnText">free returns</h5>
-
-      <article class="info infoReturns">
-          <h6>Return policy</h6>
-  
-          <p>If you don't love your new glasses or prescription sunglasses for any reason, <br> you can return them for a full refund or replace them within 30 days of the dispense date.</p>
-  
-          <p class="little">Just make sure the eyewear is in original condition and undamaged.</p>
-      </article>
-    </section>
-
-    <section class="wrap wrapperPay">
-      <div class="circle">
-        <img src="images/payment.png" alt="icon with a credit card" width="50" class="icon iconPay">
-      </div>
-
-      <h5>safe pay</h5>
-
-      <article class="info infoPay">
-          <h6>Safe payment</h6>
-  
-          <p>We want to make your shopping here safe and easy.</p>
-  
-          <p>We make sure that the payment process is safe, and you don’t experience problems when purchasing our products.</p>
-      </article>
-    </section>
-
-    <section class="wrap wrapperHappy">
-      <div class="circle">
-        <img src="images/happy.png" alt="happy emoticon" width="50" class="icon iconHappy">
-      </div>
-
-      <h5>happiness policy</h5>
-
-      <article class="info infoHappy">
-          <h6>30 day guarantee</h6>
-  
-          <p>100% satisfaction guaranteed. That’s our promise. <br>So, if you're not completely happy with your purchase within the first 30 days, just let us know. We’ll do whatever it takes to make it right*.</p>
-  
-          <p class="little">*Applies to original purchases. Does not cover accidental damage, scratches, breakage or theft.</p>
-      </article>
-    </section>
-  </div>
+    </li>
+    <!-- End Add to faves button -->
+    
+  </ul>
 </body>
 </html>
