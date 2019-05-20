@@ -1,0 +1,37 @@
+.lens-box.lens-blue-box {
+  background: #326FA8!important;
+}
+.lens-box.lens-orange-box {
+  background: #CF006E!important;
+}
+
+.lens-box.lens-blue-box a svg {
+  margin: 0 190px;
+}
+
+.lens-box span {
+  text-align: center;
+  padding: 125px 0px 0px 0px;
+}
+
+.lens-box.lens-orange-box a svg {
+  margin: 0 190px;
+}
+
+.link-store {
+  background-color: #FFFFFF;
+  color: #326FA8;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.link-exam {
+  background-color: #FFFFFF;
+  color: #CF006E;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 5px;
+  margin-left: 20px;
+}

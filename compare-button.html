@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="compare-style.css">
+  <link rel="stylesheet" href="compare-style-custom.css">
+  <title>Newsletter - Lenscrafters</title>
+</head>
+<body>
+  
+  <div id="compare_top_container" style="height: 2402px;">
+				
+					<div class="compare-container">
+						<div id="compare" style="top: auto; bottom: 1878px;">  
+							<!-- BEGIN CompareZoneDisplay.jspf-->
+
+<script type="text/javascript" src="/wcsstore/LensCraftersStorefrontAssetStore/javascript/CatalogArea/CompareProduct.js"></script>
+<script type="text/javascript" src="/wcsstore/LensCraftersStorefrontAssetStore/javascript/StoreLocatorArea/StoreLocator.js"></script>
+<script type="text/javascript">
+	dojo.addOnLoad(function() { 
+		//Set the global variables
+		compareProductJS.setCommonParameters("-1", "10851","11651");
+		
+		
+		
+		MessageHelper.setMessage("COMPARE_ITEM_EXISTS", "The product you are trying to add to the compare zone already exists");
+		MessageHelper.setMessage("COMPATE_MAX_ITEMS", "You can only compare up to 4 products");
+		MessageHelper.setMessage("COMPAREZONE_ADDED", "The Item has been successfully added to the compare zone.");
+		MessageHelper.setMessage("COMPARE_ITEMS_CLEAR", "The Items have been successfully cleared out from the compare zone");
+		parseWidget("compareZone");
+		compareProductJS.init();
+	});
+</script>
+
+
+	
+    
+	<div dojotype="dojo.dnd.Target" jsid="compareZone" id="compareZone" class="contentarea" accept="item, product, package, bundle">
+			
+	
+		<input type="hidden" id="noOfComparedItems" value="4">
+	
+		<div class="compare-buttons" id="WC_CompareZoneDisplayf_div_4" aria-hidden="true">
+			<!-- <a href="JavaScript: compareProductJS.clear();" class="clear-compare-button" id="WC_CompareZoneDisplayf_links_1_1">Clear</a> -->
+				<a href="JavaScript: compareProductJS.compareProducts();" title="Compare selected items" class="compare_products_button" id="WC_CompareZoneDisplayf_links_2_1">COMPARE</a>			
+		</div>
+	
+
+
+	</div>
+	
+	
+	
+
+<!-- END CompareZoneDisplay.jspf--> 
+						</div>     
+					</div>
+				
+				
+				<a id="top" href="#" title="Back to top"></a>
+			</div>
