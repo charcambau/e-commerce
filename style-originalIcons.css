@@ -1,0 +1,53 @@
+.pdp-container * {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li.grand-total #addTocartAllowed a.add-to-cart, li.grand-total #addTocartAllowed a.add-to-cart-cl {
+  background-color: #CF0A2C;
+  color: white!important;
+}
+
+.pdp-container .pdp-item-options ul > li .st-button {
+  width: 100%;
+  margin: 13px 0 6.5px;
+  font-family: FuturaBQBold;
+}
+
+.redesign2017 .st-button.st-button-orange, .redesign2017 #compare_view .st-button.st-button-orange, #myAccount.account-container #right.right-container .big-container .st-button.st-button-orange, #myAccount.account-container .contact-info-wrapper .big-container .st-button.st-button-orange, .redesign2017 input[type="submit"].st-button.st-button-orange, .redesign2017 #compare_view input[type="submit"].st-button.st-button-orange, #myAccount.account-container #right.right-container .big-container input[type="submit"].st-button.st-button-orange, #myAccount.account-container .contact-info-wrapper .big-container input[type="submit"].st-button.st-button-orange {
+  background: #cf0a2c;
+}
+
+li.lens-subsection a.edit-lens-selection, li.grand-total a.add-to-cart, li.grand-total a.add-to-cart-cl {
+  border-radius: 3px !important;
+  height: 40px !important;
+  font-size: 15px !important;
+  line-height: 35px !important;
+}
+
+.pdp-container .pdp-item-options ul > li .st-button-base.find-in-store {
+  font-family: FuturaBQMedium;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #5a5a5a;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+.pdp-container .pdp-item-options ul > li .st-button-base {
+  line-height: 1.6;
+}
+
+.pdp-container .pdp-item-options ul > li .st-button {
+  width: 100%;
+  margin: 13px 0 6.5px;
+  font-family: FuturaBQBold;
+}
