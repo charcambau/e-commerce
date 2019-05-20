@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+img, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+p, h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+body a {
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.hp-zone-wrapper {
+  letter-spacing: 0.5px;
+}
+
+.hp-zone-wrapper p {
+  font-weight: 500;
+  line-height: 1.33;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.evg-bottom-espot {
+  font-family: FuturaBQBook;
+  letter-spacing: 0.5px;
+
+  width: 100%;
+
+  padding: 30px 0;
+  margin-top: 80px;
+  
+  background-color: #326fa8;
+  color: #fff;
+}
+
+.evg-bottom-espot .wrapper-1440 {
+  max-width: 1440px;
+  min-width: 990px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.evg-bottom-espot .block {
+  text-align: center;
+  padding: 0 50px;
+}
+
+
+.evg-bottom-espot .block img {
+  margin-bottom: 20px;
+}
+
+.evg-bottom-espot .block.block-1 img {
+  width: 40px;
+}
+
+.evg-bottom-espot .block h3 {
+  font-family: FuturaBQBook, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.evg-bottom-espot .block p {
+  font-family: FuturaBQLight, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.evg-bottom-espot .block a.cta {
+  font-family: FuturaBQMedium, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #326fa8;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.evg-bottom-espot .block.block-2 {
+  position: relative;
+}
+
+.evg-bottom-espot .block.block-2 img {
+  width: 28px;
+}
+
+.evg-bottom-espot .block.block-2::before, .evg-bottom-espot .block.block-2::after {
+  display: block; 
+  content: '';
+  width: 1px;
+  height: 6rem;
+  background-color: #fff;
+  position: absolute;
+  top: 24%;
+}
+
+.evg-bottom-espot .block.block-2::before {
+  left: 0;
+}
+
+.evg-bottom-espot .block.block-2::after {
+  right: 0;
+}
+
+.evg-bottom-espot .block.block-3 img {
+  width: 21px;
+}
+
+#D_HP_Zone4_CTA {
+  padding: 15px;
+  margin-top: 100px;
+}
+
+a .cta .cta-background {
+  margin-top: 300px;
+}
+
+a .cta {
+  width: 800px;
+}
+
+.evg-bottom-espot .block a.cta {
+  padding-right: 5px;
+  padding-left: 5px;
+}
