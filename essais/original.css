@@ -1,5 +1,299 @@
+#main_content_wrapper {
+  width: 100%;
+  clear: both;
+  position: relative;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.pdp-container {
+  margin: 30px auto 0;
+  width: 990px;
+}
+
+input {
+  font-size: 15px;
+}
+
+
+.pdp-container .pdp-top-section {
+  position: relative;
+}
+
+.pdp-container .brand-img {
+  position: absolute;
+  z-index: 1000;
+}
+
+.pdp-top-section {
+  min-height: 380px;
+}
+
+.redesign2017 .st-button, .redesign2017 #compare_view .st-button, #myAccount.account-container #right.right-container .big-container .st-button, #myAccount.account-container .contact-info-wrapper .big-container .st-button, .redesign2017 input[type="submit"].st-button, .redesign2017 #compare_view input[type="submit"].st-button, #myAccount.account-container #right.right-container .big-container input[type="submit"].st-button, #myAccount.account-container .contact-info-wrapper .big-container input[type="submit"].st-button {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  background: #326FA8;
+  border-radius: 5px;
+  border: 2px inset transparent;
+  color: #ffffff;
+  display: inline-block;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0 13px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.pdp-container .add-to-tray {
+  position: absolute !important;
+  z-index: 1000;
+  width: 100px !important;
+  right: 245px;
+}
+[id^=addToWishListLinkAjax_] {
+  font-size: 0!important;
+}
+.hide, .closed {
+  display: none!important;
+}
+.st-button, .st-button-find-in-store {
+  background: #326fa8;
+  border-radius: 5px;
+  color: #FFF;
+  display: inline-block;
+  font-family: FuturaBQBold;
+  font-size: 12px;
+  line-height: 40px;
+  margin: 5px;
+  min-width: 150px;
+  padding: 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}.bv-cv2-cleanslate .bv-core-container-299 .bv-primarySummary-rating-container {
+  padding-top: 5px!important;
+  padding-right: 5px!important;
+  padding-bottom: 5px!important;
+  padding-left: 0!important;
+  margin-top: 5px!important;
+  margin-right: 5px!important;
+  margin-bottom: 5px!important;
+  margin-left: 0!important;
+  border-bottom-width: 0!important;
+  border-left-width: 0!important;
+  border-right-width: 0!important;
+  border-top-width: 0!important;
+  border-bottom-style: none!important;
+  border-left-style: none!important;
+  border-right-style: none!important;
+  border-top-style: none!important;
+  border-bottom-color: #5d5d5d!important;
+  border-left-color: #5d5d5d!important;
+  border-right-color: #5d5d5d!important;
+  border-top-color: #5d5d5d!important;
+  background: transparent!important;
+  -webkit-border-radius: 0!important;
+  border-radius: 0!important;
+}
+
+
+
+
+
+
+
 .pdp-container, .pdp-container * {
   box-sizing: border-box;
+}
+
+.pdp-container .pdp-item-options {
+  width: 235px;
+  float: right;
+  /* position: relative; */
+  background: #ffffff;
+  color: #3f2a2e;
+}
+
+.pdp-container .pdp-item-options {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px !important;
+}
+
+.pdp-container h1 .brand-name {
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, .banner-landing-image .info p.subheading span, .products_holder .item_container .item .names a .style-name, .products-search .results ul li a span.product-name, #plan-visit-view .tool-holder .holder .slider-eye-values ul li label span, ul#left-nav-header p.heading.browse span, ul#left-nav-header p.find-pair span, ul#left-nav-header p.heading span, #quick-view-modal #productName, .banner-landing-image .info p.subtitle, .compare-wrapper.onesight .template-holder .intro-text .left p.blue.subhead, #blog .content .rotate .names a span.style-name, .section.eyecare-landing .content p.subtitle, .template-holder .section.about-info.quote p, .os_name span, .exam-steps .sub-heading {
+  font-family: 'FuturaBQBook', Arial, Helvetica, sans-serif;
+}
+
+.pdp-container.redesign2017 h1, .pdp-container h1 span + span {
+  color: #3f2a2e;
+  text-transform: uppercase;
+  font-family: FuturaBQLight;
+  font-size: 21px;
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.pdp-container h1 {
+  line-height: 1.2;
+  margin-bottom: 6.5px;
+  color: #3f2a2e;
+  font-size: 21px;
+}
+
+.bv-cv2-cleanslate dt {
+  background-attachment: scroll!important;
+  background-color: transparent!important;
+  background-image: none!important;
+  background-position: 0 0!important;
+  background-repeat: repeat!important;
+  border-color: #000!important;
+  border-color: currentColor!important;
+  border-radius: 0!important;
+  border-style: none!important;
+  border-width: medium!important;
+  bottom: auto!important;
+  box-sizing: content-box!important;
+  clear: none!important;
+  clip: auto!important;
+  color: inherit!important;
+  counter-increment: none!important;
+  counter-reset: none!important;
+  cursor: auto!important;
+  direction: inherit!important;
+  display: inline!important;
+  float: none!important;
+  font-family: inherit!important;
+  font-size: inherit!important;
+  font-style: inherit!important;
+  font-variant: normal!important;
+  font-weight: inherit!important;
+  height: auto!important;
+  left: auto!important;
+  letter-spacing: normal!important;
+  line-height: inherit!important;
+  list-style-type: inherit!important;
+  list-style-position: outside!important;
+  list-style-image: none!important;
+  margin: 0!important;
+  max-height: none!important;
+  max-width: none!important;
+  min-height: 0!important;
+  min-width: 0!important;
+  opacity: 1!important;
+  outline: invert none medium!important;
+  overflow: visible!important;
+  padding: 0!important;
+  position: static!important;
+  quotes: '' ''!important;
+  right: auto!important;
+  table-layout: auto!important;
+  text-align: inherit!important;
+  text-decoration: inherit!important;
+  text-indent: 0!important;
+  text-transform: none!important;
+  top: auto!important;
+  unicode-bidi: normal!important;
+  vertical-align: baseline!important;
+  visibility: inherit!important;
+  white-space: normal!important;
+  width: auto!important;
+  word-spacing: normal!important;
+  z-index: auto!important;
+  filter: none!important;
+  -moz-border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+}
+
+.bv-cv2-cleanslate dt:before, .bv-cv2-cleanslate li:before, .bv-cv2-cleanslate abbr:before, .bv-cv2-cleanslate dd:before, .bv-cv2-cleanslate dt:after, .bv-cv2-cleanslate li:after, .bv-cv2-cleanslate abbr:after, .bv-cv2-cleanslate dd:after {
+  display: none!important;
+}
+
+.pdp-container .pdp-item-options ul > li.insurance-section {
+  padding: 9px 15px;
+}
+
+.pdp-container .pdp-item-options ul > li.insurance-section, .pdp-container .pdp-item-options ul > li.perk-section {
+  border-radius: 3px;
+  border: solid 1px #7daed3;
+}
+
+.pdp-container .pdp-item-options ul > li {
+  padding-bottom: 6.5px;
+  margin-bottom: 15px;
+  width: 270px;
+  padding: 10px 15px;
+}
+
+.redesign2017 li, .redesign2017 #compare_view li, #myAccount.account-container #right.right-container .big-container li, #myAccount.account-container .contact-info-wrapper .big-container li {
+  font-size: 13px;
+  color: #523f42;
+  line-height: 1.6;
+}
+
+#insurance-switch > span {
+  text-transform: uppercase;
+  font-family: FuturaBQBold;
+  font-size: 14px;
+  position: relative;
+  top: -5px;
+  /* padding-left: 40px; */
+}
+
+.pdp-item-options #insurance-switch > span {
+  font-size: 13px;
+}
+
+#insurance-switch > span:before {
+  content: '';
+  background: url(../assets/lc2_sprite.gif);
+  background-size: 360px;
+  width: 27px;
+  height: 27px;
+  background-position: 212px 188px;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+
+li.frame-section span:first-child, li.lens-section span:first-child, li.perk-saving-section span:first-child, li.frame-offer-section span:first-child, li.lens-offer-section span:first-child, li.addons-section span:first-child {
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: FuturaBQLight;
+  letter-spacing: 0.04em;
 }
 
 ul {
