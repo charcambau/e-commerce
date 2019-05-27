@@ -27,8 +27,12 @@ a {
 }
 
 p {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
+
+/* .cta {
+  margin-bottom: -50px;
+} */
 
 body a {
   line-height: 19px;
@@ -69,6 +73,14 @@ body a {
 .evg-bottom-espot .block {
   text-align: center;
   padding: 0 50px;
+}
+
+.evg-bottom-espot .block.block-2 p {
+  padding-bottom: 10px;
+}
+
+.evg-bottom-espot .block.block-3 p {
+  margin-bottom: 45px;
 }
 
 

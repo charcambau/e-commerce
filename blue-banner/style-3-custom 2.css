@@ -50,7 +50,7 @@ body a {
   font-family: FuturaBQBook;
   letter-spacing: 0.5px;
 
-  width: 100%;
+  width: 100vw;
 
   padding: 30px 0;
   margin-top: 80px;
@@ -96,6 +96,9 @@ body a {
 }
 
 .evg-bottom-espot .block a.cta {
+  padding-top: 20px;
+  padding-bottom: 10px;
+
   font-family: FuturaBQMedium, sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -103,8 +106,6 @@ body a {
   text-align: center;
   text-transform: uppercase;
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .evg-bottom-espot .block.block-2 {
