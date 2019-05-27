@@ -7,7 +7,7 @@
   color: #326FA8;
   font-size: .8em;
 
-  background-color: #326FA8;
+  background-color: #f2f2f2;
 }
 
 .iconsWrapper {
@@ -137,7 +137,7 @@ h6 {
 }
 
 .info {
-  max-width: 440px;
+  width: 100%;
   padding: 5px 10px;
 
   position: absolute;
@@ -151,7 +151,13 @@ h6 {
   display: none;
 }
 
-h6 {
+#returnText, #freeShipping, #safePay, #happinessPolicy {
+  margin-top: 10px;
+  color: #326FA8;
+  font-weight: 600;
+}
+
+.titleInfos {
   margin: 0;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -181,12 +187,12 @@ h6 {
 }
 
 .wrap:hover .circle {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .wrap:hover img {
-  width: 35px;
+  width: 55px;
 }
 
 
