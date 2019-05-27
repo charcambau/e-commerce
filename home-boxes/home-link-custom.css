@@ -1,3 +1,8 @@
+.box-container {
+  display: flex;
+  justify-content: center;
+}
+
 .lens-box.lens-blue-box {
   background: #326FA8!important;
 }
@@ -34,4 +39,35 @@
   width: 400px;
   border-radius: 5px;
   margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lens-box.lens-orange-box {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .health-errors-link {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 414px) {
+  .lens-box {
+    width: 80%;
+  }
+
+  .link-store, .link-exam {
+    width: 70%;
+    margin-left: 100px;
+  }
+
+  .lens-box.lens-blue-box a svg, .lens-box.lens-orange-box a svg {
+    margin-left: 350px;
+  }
 }
