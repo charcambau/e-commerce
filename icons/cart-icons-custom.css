@@ -1,5 +1,5 @@
 #icons {
-  width: 75%;
+  width: 90%;
   height: 100px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -8,7 +8,8 @@
   color: #326FA8;
   font-size: .8em;
 
-  background-color: #f2f2f2;
+  background-color: #c1daff;
+  border-radius: 5px;
 }
 
 .iconsWrapper {
@@ -40,6 +41,7 @@
   align-items: center;
 
   border: 1px solid #326FA8;
+  background-color: white;
   border-radius: 50%
 }
 

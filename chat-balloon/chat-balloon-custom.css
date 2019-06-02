@@ -6,4 +6,20 @@
 #liveChatBaloon a {
 background-image: url(../images/customer-care.png);
 background-size: 37px;
+
+transition: transform 1s ease-in-out;
+}
+
+#liveChatBaloon {
+  transition: transform 1s ease-in-out;
+}
+
+#liveChatBaloon:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease-in-out;
+}
+
+#liveChatBaloon:hover a {
+  transform: scale(1.2);
+  transition: transform 1s ease-in-out;
 }
