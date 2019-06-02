@@ -1,0 +1,36 @@
+.top-level.discount {
+  background-color: rgb(50, 111, 168);
+  border-radius: 2px;
+}
+
+ul#left-nav-header li.top-level > a.menu-discount-level {
+  margin-right: 20px;
+  padding: 0px 0px 0px 0px;
+}
+
+ul#left-nav-header li.top-level {
+  padding-bottom: 1px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+.coupon-img {
+  float: right;
+  width: 40px;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+
+.header-search .header-search-icon:before {
+  content: url(../images/search_blue.png);
+  transform: scale(.65);
+  filter: grayscale(100%);
+  display: block;
+}
+
+.header-search .header-search-icon:before {
+  content: url(../images/search_blue.png);
+  transform: scale(.65);
+  filter: grayscale(100%);
+  display: block;
+}
