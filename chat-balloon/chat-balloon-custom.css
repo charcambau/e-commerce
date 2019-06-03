@@ -13,9 +13,6 @@
 
 
 #liveChatBaloon a {
-/* background-image: url(../images/lilman.png);
-background-size: 30px; */
-
 transition: transform 1s ease-in-out;
 }
 
@@ -31,26 +28,21 @@ transition: transform 1s ease-in-out;
 #liveChatBaloon a #why {
   transform: scale(0);
   transform-origin: center;
-  transition: transform 300ms ease 200ms;
+  transition: transform 200ms ease;
 }
 
 #liveChatBaloon:hover a #why {
   transform: scale(1);
-  /* background-image: url(../images/lilman.png), url(../images/bubble.png);
-  background-size: 25px , 20px;
-  background-position: 15px 22px, 33px 12px; */
-
-  /* transform: scale(1.2);
-  transition: transform 1s ease-in-out; */
+  transition: transform 250ms ease 200ms;
 }
 
 #liveChatBaloon a #icon-chat {
-  transition: margin 200ms ease-out;
+  transition: margin 250ms ease-out 180ms;
 }
 
 #liveChatBaloon:hover a #icon-chat {
-  margin-top: 8px;
-  margin-left: 10px;
+  margin-top: 9px;
+  margin-left: 9px;
 
   transition: margin 200ms ease-in;
 }
