@@ -8,8 +8,9 @@
   color: #326FA8;
   font-size: .8em;
 
-  background-color: #c1daff;
-  border-radius: 5px;
+  background-color: #ffffff;
+  border-top: 2px solid #326FA8;
+  border-bottom: 2px solid #326FA8;
 }
 
 .iconsWrapper {
