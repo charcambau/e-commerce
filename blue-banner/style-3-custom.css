@@ -19,7 +19,8 @@ p, h3 {
 }
 
 h3 {
-  font-weight: normal;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 a {
@@ -165,4 +166,37 @@ a .cta {
 .evg-bottom-espot .block a.cta {
   /* padding-right: 5px; */
   padding-left: 5px;
+}
+
+
+@media (max-width: 414px) {
+  .evg-bottom-espot .wrapper-1440 {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .evg-bottom-espot .block {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 380px;
+    margin: 0 auto;
+    border-top: 2px solid white;
+  }
+
+  .evg-bottom-espot .block:last-child {
+    padding-bottom: 10px;
+  }
+
+  .evg-bottom-espot .block:first-child {
+    border: none;
+  }
+
+  .evg-bottom-espot .block.block-2::after {
+    display: none;
+  }
+
+  .evg-bottom-espot .block.block-2::before {
+    display: none;
+  }
 }
