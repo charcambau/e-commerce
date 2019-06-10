@@ -5,7 +5,26 @@
 
 ul#left-nav-header li.top-level > a.menu-discount-level {
   margin-right: 20px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+
+  color: white !important;
+}
+
+ul#left-nav-header li.top-level > a.menu-discount-level:hover {
+  color: rgb(50, 111, 168) !important;
+}
+
+ul#left-nav-header li.discount:hover {
+  background-color: white;
+  border: 1px solid rgb(50, 111, 168);
+}
+
+ul#left-nav-header li.discount:hover a.menu-discount-level {
+  color: rgb(50, 111, 168) !important;
+}
+
+ul#left-nav-header li.discount:hover #discountIcon {
+  fill: rgb(50, 111, 168);
 }
 
 ul#left-nav-header li.top-level {
@@ -33,4 +52,5 @@ ul#left-nav-header li.top-level {
   transform: scale(.65);
   filter: grayscale(100%);
   display: block;
+}
 }
