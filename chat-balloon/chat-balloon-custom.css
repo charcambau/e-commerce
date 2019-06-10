@@ -1,9 +1,48 @@
 #liveChatBaloon {
+  width: 60px;
+  height: 60px;
+
   box-shadow: 1px 5px 10px rgba(109, 109, 109, 0.5);
+}
+
+#icon-chat {
+  width: 40px;
+  margin-top: 6px;
+  margin-left: 18px;
 }
 
 
 #liveChatBaloon a {
-background-image: url(../images/customer-care.png);
-background-size: 37px;
+transition: transform 1s ease-in-out;
+}
+
+#liveChatBaloon {
+  transition: transform 1s ease-in-out;
+}
+
+#liveChatBaloon:hover {
+  /* transform: scale(1.2);
+  transition: transform 1s ease-in-out; */
+}
+
+#liveChatBaloon a #why {
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 200ms ease;
+}
+
+#liveChatBaloon:hover a #why {
+  transform: scale(0.6);
+  transition: transform 250ms ease 200ms;
+}
+
+#liveChatBaloon a #icon-chat {
+  transition: margin 250ms ease-out 180ms;
+}
+
+#liveChatBaloon:hover a #icon-chat {
+  margin-top: 4px;
+  margin-left: 14px;
+
+  transition: margin 200ms ease-in;
 }

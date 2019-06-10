@@ -1,5 +1,5 @@
 #icons {
-  width: 75%;
+  width: 70%;
   height: 100px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -8,7 +8,9 @@
   color: #326FA8;
   font-size: .8em;
 
-  background-color: #f2f2f2;
+  background-color: #ffffff;
+  border-top: 2px solid #326FA8;
+  border-bottom: 2px solid #326FA8;
 }
 
 .iconsWrapper {
@@ -40,16 +42,17 @@
   align-items: center;
 
   border: 1px solid #326FA8;
+  background-color: white;
   border-radius: 50%
 }
 
 .info {
-  width: 100%;
+  width: 50%;
   padding: 5px 10px;
 
   position: absolute;
-  left: 10px;
-  top: -80px;
+  left: 200px;
+  top: -150px;
 
   font-size: 1em;
   background-color: #F8F8F8;
@@ -62,6 +65,7 @@
   margin-top: 10px;
   color: #326FA8;
   font-weight: 600;
+  font-size: 1.2em;
 }
 
 .titleInfos {
@@ -79,6 +83,8 @@
 
 .wrapperShipping:hover .infoShipping{
   display: block;
+
+  transition: display 1s ;
 }
 
 .wrapperReturns:hover .infoReturns{
@@ -91,6 +97,9 @@
 
 .wrapperHappy:hover .infoHappy{
   display: block;
+  /* width: 75%;
+
+  transition: width .6s cubic-bezier(.05,1.01,.74,.59); */
 }
 
 .wrap:hover .circle {
@@ -98,8 +107,14 @@
   height: 60px;
 }
 
+.wrap img {
+  transition: width .3s ease-in-out;
+}
+
 .wrap:hover img {
-  width: 55px;
+  width: 60px;
+
+  transition: width .3s ease-in-out;
 }
 
 

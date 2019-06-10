@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style-newsletter.css">
+  <link rel="stylesheet" href="style-newsletter-custom.css">
+  <title>Newsletter - Lenscrafters</title>
+</head>
+<body>
+
+<div class="footer-mailing-box">
+
+	<img src="../images/newsletter-man-img.png" class="men-newsletter-img">
+	 
+ 	<div class="mail-insert">
+
+			<div class="sign-up-box">
+					<span class="mail mail-icon">	
+				 </span>
+					<p class="email-signup-top-disclaimer">SIGN UP TO OUR MAILING LIST</p>
+					<p>For the latest news, deals and exclusive offers</p>
+			</div>
+ 		
+		<div class="emailOffer">
+		<!-- BEGIN EmailOffers.jsp -->
+
+<form class="section emailSignup" id="emailSignup" novalidate="novalidate">
+	<input name="preregister" type="hidden" value="true">
+	<input name="addressType" type="hidden" value="M">
+	<input name="lcGeneralEmailOptIn_10851_r_1" type="hidden" value="true">
+	<input name="ageCheck_10851_r_1" type="hidden" value="true">
+	<input name="canAddOrigin" type="hidden" value="true">
+	<input name="optinStatus" type="hidden" value="true">	
+	<input name="URL" type="hidden" value="SuccessView">
+	<input name="storeId" type="hidden" value="10851">
+	<input name="langId" type="hidden" value="-1">	
+	<input name="emailType" type="hidden" value="Footer">
+	<input name="showRegister" type="hidden" value="true">
+	
+	<div class="fe">
+		<label for="footer_email_signup_acc">Email Address</label>
+		<input name="email" id="footer_email_signup_acc" class="footer_email_signup no-focus-clear blur" maxlength="64" type="text" value="Enter your email address">
+		<button type="submit" class="button blue go email" tabindex="0">Sign up</button>
+	</div>	
+	<div class="fe">
+		<label for="eighteen_older_footer" class="control control--checkbox certify" tabindex="0">I certify that I am 18 years or older.
+			<input type="checkbox" class="blur" value="on" name="check18Years" id="eighteen_older_footer" tabindex="-1">
+			<div class="control__indicator"></div>
+		</label>
+		
+		<span class="required subscribed" style="display:none;">The email address you provided is already subscribed.</span>
+		<span class="required logged" style="display:none;">You are currently logged in. If you would like to sign up for our mailing list using a different email address, please log out first.</span>
+	</div>
+	<div id="successMessageEmail" class="successMessageEmail"></div>
+</form>
+
+
+<script type="text/javascript">		
+		MessageHelper.setMessage("ERROR_EMAIL_EMPTY_FOOTER", "Please enter an email address.");
+		MessageHelper.setMessage("ERROR_CERT_18", "You must be 18 or older to sign up for emails.");
+		MessageHelper.setMessage("ERROR_EMAIL_SIGNUP_LOGGED_IN", "You are currently logged in. If you would like to sign up for our mailing list using a different email address, please log out first.");
+		MessageHelper.setMessage("EMAIL_SIGNUP_SUCCESS", "Thank you for signing up for emails.");
+		MessageHelper.setMessage("_ERR_EMAIL_ALREADY_SUBSCRIBED", "The email address you provided is already subscribed.");
+		MessageHelper.setMessage("ERROR_ZIP_CODE_NOT_DIGITS", "You must enter numeric characters.");
+		MessageHelper.setMessage("ERROR_ZIP_MIN_LENGTH", "Please enter exactly 5 digits.");
+		MessageHelper.setMessage("ERROR_ZipCodeEmpty", "Please enter a valid zip code.");
+</script>
+
+
+
+<script defer="" type="text/javascript" src="/wcsstore/LensCraftersStorefrontAssetStore/javascript/ValidateEmailForm.js"></script>
+
+<!-- END EmailOffers.jsp -->
+		</div>
+ 	</div> 
+ </div>
+
+</body>
+</html>
