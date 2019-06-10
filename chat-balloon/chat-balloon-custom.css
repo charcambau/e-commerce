@@ -32,7 +32,7 @@ transition: transform 1s ease-in-out;
 }
 
 #liveChatBaloon:hover a #why {
-  transform: scale(1);
+  transform: scale(0.6);
   transition: transform 250ms ease 200ms;
 }
 
@@ -41,8 +41,8 @@ transition: transform 1s ease-in-out;
 }
 
 #liveChatBaloon:hover a #icon-chat {
-  margin-top: 9px;
-  margin-left: 9px;
+  margin-top: 4px;
+  margin-left: 14px;
 
   transition: margin 200ms ease-in;
 }
