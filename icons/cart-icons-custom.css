@@ -1,0 +1,105 @@
+#icons {
+  width: 75%;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  padding: 10px 20px;
+  color: #326FA8;
+  font-size: .8em;
+
+  background-color: #f2f2f2;
+}
+
+.iconsWrapper {
+  margin: 0 auto;
+  align-self: center;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.wrap {
+  margin: 5px 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #326FA8;
+  border-radius: 50%
+}
+
+.info {
+  width: 100%;
+  padding: 5px 10px;
+
+  position: absolute;
+  left: 10px;
+  top: -80px;
+
+  font-size: 1em;
+  background-color: #F8F8F8;
+  box-shadow: 2px 2px 5px #d1d1d1;
+
+  display: none;
+}
+
+#returnText, #freeShipping, #safePay, #happinessPolicy {
+  margin-top: 10px;
+  color: #326FA8;
+  font-weight: 600;
+}
+
+.titleInfos {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.little {
+  font-size: .9em;
+  font-style: italic;
+}
+
+
+.wrapperShipping:hover .infoShipping{
+  display: block;
+}
+
+.wrapperReturns:hover .infoReturns{
+  display: block;
+}
+
+.wrapperPay:hover .infoPay{
+  display: block;
+}
+
+.wrapperHappy:hover .infoHappy{
+  display: block;
+}
+
+.wrap:hover .circle {
+  width: 60px;
+  height: 60px;
+}
+
+.wrap:hover img {
+  width: 55px;
+}
+
+

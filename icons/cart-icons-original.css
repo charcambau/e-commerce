@@ -1,0 +1,1246 @@
+html {
+  overflow-y: scroll;
+  font-family: Verdana, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.cart-container {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana;
+  background-repeat: repeat-x;
+  -webkit-appearance: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.cart-sections-container {
+  width: 990px;
+  display: block;
+  margin: 0 auto;
+}
+
+.redesign2017 .cart_header, .redesign2017 #compare_view .cart_header, #myAccount.account-container #right.right-container .big-container .cart_header, #myAccount.account-container .contact-info-wrapper .big-container .cart_header, .redesign2017 .compare_header, .redesign2017 #compare_view .compare_header, #myAccount.account-container #right.right-container .big-container .compare_header, #myAccount.account-container .contact-info-wrapper .big-container .compare_header {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.redesign2017 h1, .redesign2017 #compare_view h1, #myAccount.account-container #right.right-container .big-container h1, #myAccount.account-container .contact-info-wrapper .big-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1f1f1f;
+  text-transform: uppercase;
+  font-family: 'FuturaBQBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+a, fieldset, form, h1, h2, h3, h4, h5, h6, p, li, ol, ul, body, html, tr, td, img {
+  margin: 0;
+  padding: 0;
+}
+
+.redesign2017 .cart_header, .redesign2017 #compare_view .cart_header, #myAccount.account-container #right.right-container .big-container .cart_header, #myAccount.account-container .contact-info-wrapper .big-container .cart_header, .redesign2017 .compare_header, .redesign2017 #compare_view .compare_header, #myAccount.account-container #right.right-container .big-container .compare_header, #myAccount.account-container .contact-info-wrapper .big-container .compare_header {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 60px auto;
+}
+
+#ShoppingCart .cart-wrapper .cart_header p {
+  font-size: 14px;
+  width: 100%;
+}
+
+#ShoppingCart .cart-item-container {
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 20px;
+  padding-top: 53px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.cart-item-container .delete-link {
+  display: block;
+  font-size: 15px;
+  position: absolute;
+  right: 34px;
+  text-align: right;
+  /* width: 100%; */
+  top: 20px;
+}
+
+.delete-link {
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+  padding: 0 0 0 3px;
+  /* outline: 0; */
+  font-size: 16px;
+}
+
+.cart-items-list-container {
+  border: 1px solid #d5d5d5;
+  position: relative;
+  margin-bottom: 46px;
+  max-width: 681px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 0;
+}
+
+.shopping-cart-page .right-nav {
+  width: 282px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#cart-content {
+  display: inline-block;
+}
+
+.cart-items-container {
+  width: 100%;
+}
+
+.cart-items-list-container {
+  border: 1px solid #d5d5d5;
+  position: relative;
+  margin-bottom: 46px;
+  width: 661px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 0;
+}
+
+#ShoppingCart .cart-item-container .cart-item-description {
+  width: 191px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 13px;
+}
+
+
+.cart-items-list-container {
+  border: 1px solid #d5d5d5;
+  position: relative;
+  margin-bottom: 46px;
+  max-width: 681px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 0;
+}
+
+.right-nav {
+  width: 310px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+a {
+  color: #326FA8;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#ShoppingCart .cart-item-container .cart-item-description {
+  width: 191px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 13px;
+}
+
+#ShoppingCart .cart-wrapper p, #ShoppingCart .cart-wrapper a, #ShoppingCart .cart-wrapper .price {
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif;
+}
+
+.redesign2017 .cart_header p, .redesign2017 #compare_view .cart_header p, #myAccount.account-container #right.right-container .big-container .cart_header p, #myAccount.account-container .contact-info-wrapper .big-container .cart_header p, .redesign2017 .compare_header p, .redesign2017 #compare_view .compare_header p, #myAccount.account-container #right.right-container .big-container .compare_header p, #myAccount.account-container .contact-info-wrapper .big-container .compare_header p {
+  width: 300px;
+  margin: 0 auto;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  color: #3f2a2e;
+  font-size: 15px;
+}
+
+.redesign2017 p, .redesign2017 #compare_view p, #myAccount.account-container .contact-info-wrapper .big-container p {
+  font-size: 14px;
+  color: #523f42;
+  line-height: 1.6;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+.hide, .closed {
+  display: none!important;
+}
+
+#ShoppingCart .cart-wrapper p, #ShoppingCart .cart-wrapper a, #ShoppingCart .cart-wrapper .price {
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif;
+}
+
+.redesign2017 p, .redesign2017 #compare_view p, #myAccount.account-container .contact-info-wrapper .big-container p {
+  font-size: 14px;
+  color: #523f42;
+  line-height: 1.6;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+.shopCartMessage {
+  display: none;
+}
+
+.cart-sections-container {
+  width: 990px;
+  display: block;
+  margin: 0 auto;
+}
+
+.lc-cart-insurance-warning {
+  font-size: 16px;
+  padding: 8px 20px;
+  background-color: #FAE7EB;
+  font-family: FuturaBQBook;
+  border: 1px solid #CF0329;
+  margin-bottom: 12px;
+}
+
+.lc-cart-insurance-warning > p {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 1.3em;
+  padding: 10px;
+}
+
+.lc-cart-insurance-warning > p span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #CF0329;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.lc-cart-insurance-warning {
+  font-size: 16px;
+  padding: 8px 20px;
+  background-color: #FAE7EB;
+  font-family: FuturaBQBook;
+  border: 1px solid #CF0329;
+  margin-bottom: 12px;
+}
+
+#cart-content {
+  display: inline-block;
+}
+
+input {
+  font-size: 15px;
+}
+
+.cart-items-list-container {
+  border: 1px solid #d5d5d5;
+  position: relative;
+  margin-bottom: 46px;
+  max-width: 681px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 0;
+}
+
+.cart-items-container {
+  width: 100%;
+}
+
+.hide, .closed {
+  display: none!important;
+}
+
+input {
+  font-size: 15px;
+}
+
+#ShoppingCart .cart-item-container {
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 20px;
+  padding-top: 53px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+a.delete-link {
+  font-weight: normal;
+}
+
+.cart-item-container .delete-link {
+  display: block;
+  font-size: 15px;
+  position: absolute;
+  right: 34px;
+  text-align: right;
+  /* width: 100%; */
+  top: 20px;
+}
+
+.delete-link {
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+  padding: 0 0 0 3px;
+  /* outline: 0; */
+  font-size: 16px;
+}
+
+#ShoppingCart .cart-item-container {
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 20px;
+  padding-top: 53px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.frame-price:before {
+  display: block;
+  content: "Frame:\A";
+  font-weight: bold;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .frame-price:before {
+  content: "";
+  width: 410px;
+  border-bottom: 1px dashed darkgrey;
+  display: block;
+  height: 14px;
+  right: 48px;
+  position: absolute;
+}
+
+
+#ShoppingCart .cart-item-container .edit-wrapper .frame-price {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  width: 100%;
+  font-size: 15px;
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif!important;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  font-weight: normal;
+  line-height: 13px;
+  margin-top: -19px;
+  padding-bottom: 20px;
+}
+#ShoppingCart .cart-wrapper p, #ShoppingCart .cart-wrapper a, #ShoppingCart .cart-wrapper .price {
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif;
+}
+.redesign2017 p, .redesign2017 #compare_view p, #myAccount.account-container .contact-info-wrapper .big-container p {
+  font-size: 14px;
+  color: #523f42;
+  line-height: 1.6;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+body p {
+  line-height: 19px;
+}
+body p {
+  line-height: 19px;
+}
+p, li {
+  color: #1f1f1f;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .frame-price {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  width: 100%;
+  font-size: 15px;
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif!important;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  font-weight: normal;
+  line-height: 13px;
+  margin-top: -19px;
+  padding-bottom: 36px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-price:before {
+  content: "";
+  width: 380px;
+  border-bottom: 1px dashed darkgrey;
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 48px;
+}
+
+.lens-price:before {
+  padding-top: 7px;
+  display: block;
+  content: "Lens:\A";
+  font-weight: bold;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper {
+  width: 445px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper {
+  width: 450px;
+  display: inline-block;
+  float: right;
+}
+
+#ShoppingCart .cart-item-container .cart-item-totals {
+  width: 169px;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 478px;
+}
+
+[id^=content_wrapper_box] form.lc2 .label_check input[type="checkbox"] + span, form.lc2 .label_check input[type="checkbox"] + span {
+  margin: 0 0 0 30px;
+  display: inline-block;
+  line-height: 23px;
+  font-size: 16px;
+  color: #3F2a2e;
+  font-weight: normal;
+  font-family: "FuturaBQBook";
+}
+
+body a {
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.screenreader-only {
+  left: -9999px;
+  position: absolute;
+}
+
+#ShoppingCart .cart-item-container .cart-item-description {
+  width: 191px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 13px;
+}
+
+a img {
+  border: none;
+}
+
+a, fieldset, form, h1, h2, h3, h4, h5, h6, p, li, ol, ul, body, html, tr, td, img {
+  margin: 0;
+  padding: 0;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper {
+  width: 445px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper {
+  width: 450px;
+  display: inline-block;
+  float: right;
+}
+
+.edit-wrapper .productTitleDetails, .edit-wrapper .edit-prescriptions {
+  margin-top: 10px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .frame-name {
+  width: 200px;
+  display: inline-block;
+}
+
+.redesign2017 p, .redesign2017 #compare_view p, #myAccount.account-container .contact-info-wrapper .big-container p {
+  font-size: 14px;
+  color: #523f42;
+  line-height: 1.6;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+#ShoppingCart .cart-item-container .productTitleDetails a {
+  color: #3f2a2e;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+}
+
+#ShoppingCart .cart-wrapper .frame-name a {
+  font-family: FuturaBQBold;
+  background: white;
+  z-index: 999;
+  display: inline-block;
+  position: relative;
+  padding-right: 4px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .frame-price {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  width: 100%;
+  font-size: 15px;
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif!important;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  font-weight: normal;
+  line-height: 13px;
+  margin-top: -19px;
+  padding-bottom: 20px;
+}
+
+
+.edit-wrapper .productTitleDetails, .edit-wrapper .edit-prescriptions {
+  margin-top: 10px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-name {
+  width: 300px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.cart-item-container .edit-prescriptions p, .cart-item-container .addons-container p {
+  color: #3f2a2e;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-name span {
+  vertical-align: top;
+}
+
+#ShoppingCart .cart-wrapper p, #ShoppingCart .cart-wrapper a, #ShoppingCart .cart-wrapper .price {
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif;
+}
+
+.cart-item-container .edit-prescriptions p, .cart-item-container .addons-container p {
+  color: #3f2a2e;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-name span {
+  vertical-align: top;
+}
+
+.cart-item-container .edit-prescriptions p .name, .cart-item-container .addons-container p .name {
+  display: inline-block;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  background: white;
+  z-index: 999;
+  display: inline-block;
+  position: relative;
+  padding-right: 5px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-price {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  width: 137px;
+  font-size: 15px;
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif!important;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  line-height: 31px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-price:before {
+  content: "";
+  width: 380px;
+  border-bottom: 1px dashed darkgrey;
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 48px;
+}
+
+.lens-price:before {
+  padding-top: 7px;
+  display: block;
+  content: "Lens:\A";
+  font-weight: bold;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-price span {
+  background: white;
+  z-index: 999;
+  display: inline-block;
+  position: relative;
+  padding-left: 5px;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper .edit-prescriptions .lens-price {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  width: 137px;
+  font-size: 15px;
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif!important;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  line-height: 31px;
+}
+
+.cart-wrapper a.styled-link, .cart-wrapper a.delete-link {
+  font-weight: normal;
+}
+
+.edit-wrapper .styled-link {
+  font-size: 14px;
+  margin-left: 37px;
+}
+
+.styled-link.edit-link {
+  display: block!important;
+}
+
+.edit-prescriptions .edit-link:after {
+  content: '';
+  background: url(../images/sprites/newCheckSprite.png);
+  background-size: auto;
+  background-position: -13px;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+}
+
+#ShoppingCart .cart-item-container .edit-wrapper form:not(.current-prescription) {
+  margin: 10px 0;
+}
+
+.cart-items-list-container .checkbox.warranty-input {
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+}
+
+[id^=content_wrapper_box] form.lc2 .label_check, form.lc2 .label_check {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  background: none;
+}
+
+.label_check.blue {
+  background: url(../images/check_unchecked.png) center center no-repeat;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #1f1f1f;
+}
+
+.cart-items-list-container .checkbox.warranty-input {
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+}
+
+
+.label_check input, .label_radio input {
+  position: absolute;
+  left: -9999px;
+}
+
+[id^=content_wrapper_box] form.lc2 .label_check input[type="checkbox"], form.lc2 .label_check input[type="checkbox"] {
+  position: absolute;
+  left: 0px;
+  top: -3px;
+  opacity: 0;
+  margin: 0;
+}
+
+[id^=content_wrapper_box] form.lc2 .label_check input[type="checkbox"] + span, form.lc2 .label_check input#rx[type="checkbox"] + span {
+  text-transform: initial;
+}
+
+[id^=content_wrapper_box] form.lc2 .label_check input[type="checkbox"] + span, form.lc2 .label_check input[type="checkbox"] + span {
+  margin: 0 0 0 30px;
+  display: inline-block;
+  line-height: 23px;
+  font-size: 16px;
+  color: #3F2a2e;
+  font-weight: normal;
+  font-family: "FuturaBQBook";
+}
+
+.warranty.custom-checkbox + span {
+  position: relative;
+  background: white;
+  z-index: 999;
+}
+
+.label_check span {
+  margin: 2px 0 0 25px;
+  float: left;
+}
+
+[id^=content_wrapper_box] form.lc2 .label_check input[type="checkbox"] + span::before, form.lc2 .label_check input[type="checkbox"] + span::before, .frame-recap .label_check input[type="checkbox"] + span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background: url(../assets/lc2_sprite.gif);
+  background-position: -91px -48px;
+  background-size: 400px;
+  width: 23px;
+  height: 23px;
+  visibility: visible;
+}
+
+.warranty.custom-checkbox + span::before {
+  left: -31px!important;
+}
+
+.cart-items-list-container .checkbox.warranty-input a {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.warranty-input a:after {
+  content: '';
+  background: url(../images/sprites/newCheckSprite.png);
+  background-size: auto;
+  background-position: -13px;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+}
+
+.label_check.blue span {
+  margin-left: 32px;
+}
+
+.label_check span {
+  margin: 2px 0 0 25px;
+  float: left;
+}
+
+button, .button, input[type="submit"] {
+  cursor: pointer;
+  font-family: 'FuturaBQBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+input[type=submit], input[type="button"] {
+  -webkit-appearance: none;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+#ShoppingCart .cart-item-container .cart-item-totals {
+  width: 169px;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #3f2a2e;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 478px;
+}
+
+#ShoppingCart .cart-item-container .cart-item-totals > div:last-of-type {
+  margin-bottom: 0;
+}
+
+#ShoppingCart .cart-item-container .cart-item-totals .frameSubtotal {
+  border-top: 1px solid #d5d5d5;
+  padding-top: 9px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-family: FuturaBQBold;
+}
+
+#ShoppingCart .cart-item-container .cart-item-totals > div {
+  margin-bottom: 13px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#ShoppingCart .cart-item-container .cart-item-totals p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f2a2e;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.promo-code {
+  margin-bottom: 25px;
+  height: 100px;
+}
+
+.show-promo {
+  font-size: 15px!important;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif!important;
+  padding-bottom: 10px;
+  margin-top: -25px;
+  cursor: pointer;
+  display: block;
+  color: #523f42;
+}
+
+.content-block-promoCode {
+  display: none;
+  width: 550px;
+}
+
+.shopping-cart-page .right-nav {
+  width: 282px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul {
+  list-style: none;
+}
+
+#insurance-switch {
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.right-nav > ul > li {
+  overflow: hidden;
+  margin-bottom: 13px;
+  background-color: #f7f7f7;
+  padding: 26px;
+  border: 1px solid #d5d5d5;
+}
+
+#insurance-switch > span {
+  text-transform: uppercase;
+  font-family: FuturaBQBold;
+  font-size: 14px;
+  position: relative;
+  top: -5px;
+  /* padding-left: 40px; */
+}
+
+.right-nav span {
+  font-size: 14px;
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+  font-weight: normal!important;
+}
+
+#insurance-switch > span:before {
+  content: '';
+  background: url(../assets/lc2_sprite.gif);
+  background-size: 360px;
+  width: 27px;
+  height: 27px;
+  background-position: 212px 188px;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+
+#insurance-switch .switch-outer {
+  width: 28px;
+  height: 13px;
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  margin-left: 4px;
+  text-align: left;
+  border-radius: 8.5px;
+  background-color: #5B494C;
+  border: solid 1px #5B494C;
+}
+
+.right-nav > ul > li > div {
+  font-weight: normal;
+}
+
+#insurance-switch .switch-inner {
+  width: 13px;
+  height: 13px;
+  background: white;
+  display: inline-block;
+  border-radius: 13px;
+}
+
+.error.not-insurable {
+  font-family: FuturaBQBook;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 12px;
+  padding-top: 5px;
+  line-height: 1.42;
+  letter-spacing: 0.5px;
+  color: #cf0a2c;
+}
+
+.right-nav > ul > li > div {
+  font-weight: normal;
+}
+
+.hide, .closed {
+  display: none!important;
+}
+
+.cart-container .right-nav > ul > li#ShippingMethodEntry {
+  background-color: #e8e8e8;
+  border: none;
+}
+
+.right-nav.checkout > ul > li {
+  padding: 0px;
+}
+
+.right-nav > ul > li {
+  overflow: hidden;
+  margin-bottom: 13px;
+  background-color: #f7f7f7;
+  padding: 26px;
+  border: 1px solid #d5d5d5;
+}
+
+.right-nav.checkout > ul > li > .container {
+  padding: 15px 25px;
+}
+
+.right-nav > ul > li > div {
+  font-weight: normal;
+}
+
+.right-nav.checkout > ul > li {
+  padding: 0px;
+}
+
+.right-nav .calculate-tax {
+  position: relative;
+}
+
+.right-nav > ul > li {
+  overflow: hidden;
+  margin-bottom: 13px;
+  background-color: #f7f7f7;
+  padding: 26px;
+  border: 1px solid #d5d5d5;
+}
+
+body li {
+  line-height: 19px !important;
+}
+
+.right-nav.checkout > ul > li > .container {
+  padding: 15px 25px;
+}
+
+.calculate-tax .title {
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-bottom: 0;
+}
+
+.right-nav .title {
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: bold !important;
+  font-size: 16px;
+  padding-bottom: 6.5px;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  color: #3f2a2e;
+}
+
+#ShoppingCart .cart-wrapper p, #ShoppingCart .cart-wrapper a, #ShoppingCart .cart-wrapper .price {
+  font-family: FuturaBQBook, Arial, Helvetica, sans-serif;
+}
+
+.right-nav .calculate-tax .calculate {
+  float: right;
+  color: #4d8eca;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.right-nav .calculate-tax .calculate .price {
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif !important;
+  font-size: 16px;
+}
+
+.right-nav span {
+  font-size: 14px;
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+  font-weight: normal!important;
+}
+
+.right-nav .calculate-tax .calculate:after {
+  width: 0;
+  content: "";
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #6daacd;
+  float: right;
+  position: absolute;
+  right: 30px;
+  margin-top: 6px;
+}
+
+.right-nav .calculate-tax .show-tax {
+  display: none;
+  position: relative;
+}
+
+.right-nav .calculate-tax label {
+  display: block;
+  margin-top: 18px;
+  font-family: FuturaBQBold;
+  font-weight: bold;
+  color: #3f2a2e;
+  text-transform: capitalize;
+  font-size: 16px;
+  position: relative;
+}
+
+
+.nodisplay {
+  display: none!important;
+}
+
+.subtitleTax {
+  margin-top: 20px;
+  font-size: 16px !important;
+}
+
+.right-nav .calculate-tax label {
+  display: block;
+  margin-top: 18px;
+  font-family: FuturaBQBold;
+  font-weight: bold;
+  color: #3f2a2e;
+  text-transform: capitalize;
+  font-size: 16px;
+  position: relative;
+}
+
+.right-nav span.required-star {
+  color: #f4791f!important;
+}
+
+.right-nav span {
+  font-size: 14px;
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+  font-weight: normal!important;
+}
+
+.right-nav .calculate-tax input {
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  width: 295px;
+  padding: 10px 7px;
+  margin-top: 6px;
+  color: #523f42;
+  font-size: 14px;
+  width: 215px;
+}
+
+.right-nav.checkout .calculate-tax span.required {
+  position: static!important;
+  color: #CC0000;
+  font-style: normal;
+  margin: 10px auto 15px 25px;
+}
+
+.right-nav span {
+  font-size: 14px;
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+  font-weight: normal!important;
+}
+
+span.required, label.error, #PasswordUpdateFailureResponseMessageDiv {
+  font-size: 12px;
+  color: #CC0000;
+  float: left;
+  margin: 3px 0 5px 2px;
+  font-style: italic;
+  clear: both;
+  font-weight: normal;
+}
+
+.right-nav .calculate-tax .submit {
+  border: 0;
+  width: 295px;
+  padding: 10px 7px;
+  margin-top: 6px;
+  color: #523f42;
+  font-size: 16px;
+  width: 230px;
+  position: absolute;
+  margin-top: -37px;
+  width: 70px;
+  background: white;
+  color: #4d8eca;
+  right: 0;
+  line-height: 15px;
+  height: 21px;
+  font-family: FuturaBQBook;
+  font-weight: normal;
+}
+
+.right-nav > ul > li {
+  overflow: hidden;
+  margin-bottom: 13px;
+  background-color: #f7f7f7;
+  padding: 26px;
+  border: 1px solid #d5d5d5;
+}
+
+.right-nav.checkout > ul > li > .container {
+  padding: 15px 25px;
+}
+
+.right-nav > ul > li > div {
+  font-weight: normal;
+}
+
+.right-nav .grandTotal {
+  padding: 6.5px 0;
+}
+
+.right-nav .grandTotal .main-total {
+  font-size: 16px;
+}
+
+.right-nav .grandTotal .main-total {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  padding-bottom: 6.5px;
+}
+
+.cart-wrapper .right-nav p {
+  font-size: 18px;
+  color: #3f2a2e;
+  text-align: initial;
+}
+
+.right-nav .subtotal-label {
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.checkout-wrapper-steps .right-nav .title, .checkout-wrapper-steps .main-total, #WC_SingleShipmentOrderTotalsSummary_td_0 {
+  font-family: FuturaBQBold;
+}
+
+.right-nav .grandTotal .subtotal {
+  float: right;
+  font-size: 22px;
+  letter-spacing: -0.05em;
+  margin-top: -2px;
+}
+
+.right-nav span {
+  font-size: 14px;
+  font-family: FuturaBQBook;
+  color: #3f2a2e;
+  font-weight: normal!important;
+}
+
+#guestShopperContinue {
+  padding-left: 45px;
+}
+
+.redesign2017 .st-button.st-button-orange, .redesign2017 #compare_view .st-button.st-button-orange, #myAccount.account-container #right.right-container .big-container .st-button.st-button-orange, #myAccount.account-container .contact-info-wrapper .big-container .st-button.st-button-orange, .redesign2017 input[type="submit"].st-button.st-button-orange, .redesign2017 #compare_view input[type="submit"].st-button.st-button-orange, #myAccount.account-container #right.right-container .big-container input[type="submit"].st-button.st-button-orange, #myAccount.account-container .contact-info-wrapper .big-container input[type="submit"].st-button.st-button-orange {
+  background: #cf0a2c;
+}
+
+.right-nav .st-button {
+  margin-bottom: 6.5px;
+}
+
+.redesign2017 .st-button, .redesign2017 #compare_view .st-button, #myAccount.account-container #right.right-container .big-container .st-button, #myAccount.account-container .contact-info-wrapper .big-container .st-button, .redesign2017 input[type="submit"].st-button, .redesign2017 #compare_view input[type="submit"].st-button, #myAccount.account-container #right.right-container .big-container input[type="submit"].st-button, #myAccount.account-container .contact-info-wrapper .big-container input[type="submit"].st-button {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  background: #326FA8;
+  border-radius: 5px;
+  border: 2px inset transparent;
+  color: #ffffff;
+  display: inline-block;
+  font-family: FuturaBQBold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0 13px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+
+
+

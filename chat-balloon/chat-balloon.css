@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  line-height: 1.625;
+}
+
+#liveChatBaloon.active {
+  bottom: 105px;
+}
+
+#liveChatBaloon {
+  z-index: 20;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: -105px;
+  right: 45px;
+  border-radius: 50%;
+  background: #f6151a;
+  display: block;
+  transition: .5s;
+}
+
+#liveChatBaloon a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://s7d2.scene7.com/is/image/LuxotticaOakley/liveChatBaloon20190516?$png$);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 27px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+
+@media (max-width: 990px) {
+  #liveChatBaloon.active {
+    bottom: 30px;
+}
+
+#liveChatBaloon.active {
+  bottom: 105px;
+}
+
+@media (max-width: 990px) {
+  #liveChatBaloon {
+    right: 10px;
+  }

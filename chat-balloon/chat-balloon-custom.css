@@ -1,0 +1,9 @@
+#liveChatBaloon {
+  box-shadow: 1px 5px 10px rgba(109, 109, 109, 0.5);
+}
+
+
+#liveChatBaloon a {
+background-image: url(../images/customer-care.png);
+background-size: 37px;
+}
