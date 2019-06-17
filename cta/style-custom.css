@@ -90,3 +90,26 @@ a {
 
   transition: transform .1s ease-in-out;
 }
+
+@media (max-width: 500px) {
+  #stickySaE {
+    width: 90px;
+    height: 50px;
+    z-index: 1;
+  }
+
+  #stickySaE img {
+    height: 18px;
+  }
+
+  #stickySaE p {
+    font-size: .7em;
+  }
+}
+
+
+  /* #stickySaE a::after {
+    transform: translateY(-75%) !important;
+    visibility: visible;
+    z-index: -1;
+  } */
