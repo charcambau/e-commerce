@@ -7,6 +7,10 @@ img, p, a {
   padding: 0;
 }
 
+img {
+  height: 30px;
+}
+
 p, h3 {
   display: block;
   margin-block-start: 1em;
@@ -19,7 +23,8 @@ p, h3 {
 }
 
 h3 {
-  font-weight: normal;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 a {
@@ -58,6 +63,7 @@ body a {
 
   padding: 30px 0;
   margin-top: 80px;
+  margin-bottom: 80px;
   
   background-color: #326fa8;
   color: #fff;
@@ -75,14 +81,9 @@ body a {
   padding: 0 50px;
 }
 
-.evg-bottom-espot .block.block-2 p {
-  padding-bottom: 10px;
+.img-background {
+  height: 50px;
 }
-
-.evg-bottom-espot .block.block-3 p {
-  margin-bottom: 45px;
-}
-
 
 .evg-bottom-espot .block img {
   margin-bottom: 20px;
@@ -96,6 +97,7 @@ body a {
   font-family: FuturaBQBook, sans-serif;
   font-size: 15px;
   color: #fff;
+  height: 30px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -105,6 +107,7 @@ body a {
   font-size: 14px;
   color: #fff;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .evg-bottom-espot .block a.cta {
@@ -165,4 +168,42 @@ a .cta {
 .evg-bottom-espot .block a.cta {
   /* padding-right: 5px; */
   padding-left: 5px;
+}
+
+@media (max-width: 768) {
+  .evg-bottom-espot {
+    width: 130%;
+  }
+}
+
+
+@media (max-width: 411px) {
+  .evg-bottom-espot .wrapper-1440 {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .evg-bottom-espot .block {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-top: 2px solid white;
+  }
+
+  .evg-bottom-espot .block:last-child {
+    padding-bottom: 10px;
+  }
+
+  .evg-bottom-espot .block:first-child {
+    border: none;
+  }
+
+  .evg-bottom-espot .block.block-2::after {
+    display: none;
+  }
+
+  .evg-bottom-espot .block.block-2::before {
+    display: none;
+  }
 }
