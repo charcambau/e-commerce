@@ -8,7 +8,7 @@
   color: #326FA8;
   font-size: .8em;
 
-  background-color: #ffffff;
+  background-color: transparent;
   border-top: 2px solid #326FA8;
   border-bottom: 2px solid #326FA8;
 }
@@ -42,8 +42,8 @@
   align-items: center;
 
   border: 1px solid #326FA8;
-  background-color: white;
-  border-radius: 50%
+  background-color: transparent;
+  border-radius: 50%;
 }
 
 .info {
@@ -109,10 +109,11 @@
 
 .wrap img {
   transition: width .3s ease-in-out;
+  z-index: -1;
 }
 
 .wrap:hover img {
-  width: 60px;
+  width: 45px;
 
   transition: width .3s ease-in-out;
 }

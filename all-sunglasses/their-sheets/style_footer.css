@@ -1,0 +1,913 @@
+﻿
+#footer_wrapper {
+	position: relative;
+	width: 100%;
+	padding: 0px 0 0px 0;
+	/* border-top: 1px solid #CAC9C6; */
+	clear: both;
+	display: inline-block;
+	margin-top: 40px;
+}
+#footer {
+	position: relative;
+	margin: 0px auto 0 auto;
+	width: 100%;
+	height: 248px!important;
+	padding: 0;
+	background-color: #e9f4ff;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 38px 11vw 0 11vw;
+	box-sizing:  border-box;
+}
+.clearfix:before, .clearfix:after {
+    content: ""; 
+    display: table; 
+}
+#footer > div {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 158px;
+}
+#footer > div > h3 {
+	font-family: FuturaBQBold;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.5px!Important;
+	color: #1f1f1f;
+	margin-bottom: 12px;
+}
+#footer > div > div {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content:  space-between;
+}
+#footer > div > div > a {
+	font-family: FuturaBQMedium;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.4px!important;
+	color: #1f1f1f;
+}
+#footer > div.column1 > div > a:last-child {
+	padding-top: 8px;
+}
+#footer .one-sight {
+	background-image: url("../images/assets/onesightlogos-horizontal-hr_1.png");
+	background-size: 91%;
+	background-position:  center;
+	position: relative;
+	width: 105px;
+	height: 36px;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+#footer > .column5 > h3.social{
+    margin-top: 35px!important;
+}
+ #footer > .column6 > h3.payment {
+ 	margin-top: 35px!important;
+}
+#footer .social-icons {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-right: 10px;
+}
+#footer .social-icons a:first-child{
+	background-image: url("../images/socialIntegration/social-facebook.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	position: relative;
+	width: 8px;
+	height: 16px;
+}
+#footer .social-icons a:nth-child(2){
+	background-image: url("../images/socialIntegration/social-twitter.png");
+	background-repeat: no-repeat;
+	background-size: 96%;
+	position: relative;
+	width: 16px;
+	height: 16px;
+}
+#footer .social-icons a:nth-child(3){
+	background-image: url("../images/socialIntegration/social-instagram.png");
+	background-repeat: no-repeat;
+	background-size: 87%;
+	position: relative;
+	width: 16px;
+	height: 16px;
+}
+#footer .social-icons a:nth-child(4){
+	background-image: url("../images/socialIntegration/social-pinterest.png");
+	background-repeat: no-repeat;
+	background-size: 82%;
+	position: relative;
+	width: 16px;
+	height: 16px;
+}
+#footer .social-icons a:nth-child(5){
+	background-image: url("../images/socialIntegration/social-youtube.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	width: 16px;
+	height: 16px;
+}
+#footer .payment-icons {
+	display: flex;
+	flex-flow: row nowrap;
+}
+#footer .payment-icons a:first-child{
+	background-image: url("../assets/cards/CreditCard_Icons_Mastercard1.jpg");
+	background-repeat: no-repeat;
+	background-size: 81%;
+	position: relative;
+	width: 32.4px;
+	height: 20px;
+}
+#footer .payment-icons a:nth-child(2){
+	background-image: url("../assets/cards/CreditCard_Icons_Vis1a.jpg");
+	background-repeat: no-repeat;
+	background-size: 81%;
+	position: relative;
+	width: 32.4px;
+	height: 20px;
+}
+#footer .payment-icons a:nth-child(3){
+	background-image: url("../assets/cards/CreditCard_Icons_AmericanExpres1s.jpg");
+	background-repeat: no-repeat;
+	background-size: 81%;
+	position: relative;
+	width: 32.4px;
+	height: 20px;
+}
+#footer .payment-icons a:nth-child(4){
+	background-image: url("../assets/cards/CreditCard_Icons_Discover.jpg");
+	background-repeat: no-repeat;
+	background-size: 81%;
+	position: relative;
+	width: 32.4px;
+	height: 20px;
+}
+.footer-mailing-box{
+	background-color: #fbfeff;
+	height: 127px;
+	display:  flex;
+	flex-flow: row nowrap;
+	justify-content:  center;
+	align-items:  center;
+}
+.footer-mailing-box .mail{
+	background-image: url("../images/e-mail-envelope.png");
+	background-size: 97%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 41.9px;
+	height: 33px;
+	margin: -3px 0 0 -47px;
+}
+.footer-mailing-box div:first-child{
+	margin-right: 40.5px;
+}
+.emailOffer {
+	max-height: 110px;
+}
+#emailSignup{
+	width: 325px;
+}
+.footer-mailing-box div:nth-child(2){
+	margin-left: 40.5px;
+	align-self: flex-end;
+}
+.footer-mailing-box .successMessageEmail {
+	font-family: FuturaBQBook;
+	position: relative;
+	bottom: 47px;
+}
+.footer-mailing-box div:first-child h3{
+	font-family: FuturaBQBook;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: #1f1f1f;
+}
+.footer-mailing-box div:first-child p{
+	font-family: FuturaBQBook;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	color: #1f1f1f;
+}
+.footer-mailing-box div.fe.email label,
+.footer-mailing-box div.fe label{
+	font-family: FuturaBQBook;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #1f1f1f;
+}
+.footer-mailing-box div.fe label{
+	display:block;
+}
+.footer-mailing-box #emailSignup input.footer_email_signup{
+	width: 209px;
+	height: 30px!important;
+	border-radius: 2px;
+	background-color: #ffffff;
+	font-family: FuturaBQBook;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #707070;
+	padding-left: 10px!Important;
+	box-sizing: border-box;
+}
+.footer-mailing-box #emailSignup label.certify{
+	font-family: FuturaBQBook;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #1f1f1f;
+	position: relative;
+	top: -4px;
+}
+.footer-mailing-box input[type="checkbox"]{
+	width: 13px;
+	height: 14px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	top: 12px;
+	margin-top: 7px;
+	border: 1px solid;
+}
+#footer-last-section{
+	display: flex;
+	flex-flow: row nowrap;
+	height: 35px;
+	width: 100%;
+	background-color: #fbfeff;
+	align-items: center;
+	justify-content: space-around;
+}
+#footer-last-section p{
+	font-family: FuturaBQBook;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	margin-left: 27px;
+	color: #5a5a5a;
+}
+#footer-last-section a span.flag-en-ca{
+	background: url("../images/en-ca.png") left no-repeat;
+	width: 18px;
+	height: 13px;
+	position: absolute;
+	z-index: 999;
+	background-size: 100%;
+	width: 19px;
+	height: 19px;
+	margin: 1px 0 0 -22px;
+}
+#footer-last-section a span.flag-us{
+	background: url("../images/en-us.png") left no-repeat;
+	position: absolute;
+	z-index: 999;
+	background-size: 100%;
+	width: 19px;
+	height: 19px;
+	margin: 1px 0 0 -22px;
+	transform: scale(1.2);
+}
+#footer-last-section a span.flag-es-pr{
+	background: url("../images/es-pr.png") left no-repeat;
+	width: 18px;
+	height: 13px;
+	position: absolute;
+	z-index: 999;
+	background-size: 100%;
+	width: 19px;
+	height: 19px;
+	margin: 1px 0 0 -22px;
+}
+#footer-last-section a span.ba{
+	background: url('../images/sprites/lc_site_sprite_topleft.png') no-repeat 0 -480px !important;
+	position: absolute;
+	width: 6px;
+	height: 6px !important;
+	margin: 0px 0 0 23px;
+}
+#footer-last-section a span.ba.open{
+	transform: rotate(-90deg);
+}
+#footer-last-section .choose-language-box {
+	width: 96px;
+	height: 115px;
+	position: absolute;
+	top: 266px;
+	right: 30vh;
+	background-color: #fbfeff;
+	z-index: 9999;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content:  space-around;
+	align-items: flex-start;
+}
+@media screen and (min-width: 1400px) {
+    #footer-last-section .choose-language-box {
+        right: 35vh;
+    }
+}
+/* Checkbox */
+.control {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	margin-top: 20px;
+	font-family: FuturaBQBook;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #5a5a5a;
+	left: 27px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+#footer_wrapper .control__indicator {
+	position: relative;
+	top: -17px;
+	left: -28px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	opacity: 1;
+	margin-left: 0!important;
+}
+
+.footer-mailing-box input[type="checkbox"]:focus + .control__indicator {
+	border-color: #326fa8 !important;
+	-webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+
+
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    opacity: 0.3;
+	
+}
+/* Check mark */
+.control__indicator:after {
+	position: relative;
+	display: none;
+	content: '';
+}
+/* Checkbox tick */
+.control input:checked ~ .control__indicator:after  {
+	background-image: url("../images/shape.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	position: relative;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	left: 3px;
+}
+#footer-last-section .footer-logo-and-copy {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 545px;
+}
+#footer-last-section .choose-language {
+	height: 50%;
+}
+#footer-last-section .choose-language > a{
+	position: relative;
+	top: 0px;
+}
+#footer-last-section .choose-language-box > a{
+	margin-left: 38px;
+	font-family: FuturaBQBook;
+	font-size: 13px;
+	font-weight: 500;
+	color: #326fa8;
+}
+#footer .column {
+	float: left;
+}
+#footer .column h3 {
+	font-size: 15px;
+	margin: 0px 0 4px 0;
+	padding: 7px 0;
+	border-bottom: 1px solid #CAC9C6;
+	width: 100%;
+}
+#footer .column.one {
+	width: 300px;
+	height: 248px;
+	margin: 0px 40px 0 0;
+}
+#footer .column.one ul {
+	float: left;
+	width: 100%;
+	clear: both;
+	line-height: 11px;
+}
+#footer .column.one ul li.phone-number {
+	font-size: 13px;
+	font-weight: bold;
+	color: #a3a3a3;
+	margin: 0 0 8px;
+}
+#footer .column.one ul li.phone-number span {
+	color: #6eabce!important;
+	font-size: 11px!important;
+}
+#footer .column.one ul li {
+	float: left;
+	clear: both;
+	margin: 2px 0;
+	width: 100%;
+}
+#footer .column.one ul li a {
+	display: inline-block;
+	font-weight: bold;
+	width: 131px;
+	font-size: 11px;
+}
+#footer .column.two li a {
+	display: inline-block;
+	font-weight: bold;
+	width: 150px;
+	font-size: 11px;
+}
+#footer .column.two li a.last {
+	width: 145px;
+}
+#footer .column.one ul li a.last {
+	width: 145px;
+}
+#footer .column.one ul li a.last.letter {
+	margin-left: -5px;
+}
+#footer .column.three .emailOffer {
+	margin-top: 27px;
+}
+#footer .column.one ul li a:hover,#footer .column.one ul li a:focus {
+	color: #2b6c91;
+}
+form.visit_store {
+	position: relative;
+	float: right;
+	width: 183px;
+	height: 85px;
+}
+#footer .column.one form.visit_store label {
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+	margin: 0 0 0 12px;
+	color: #1f1f1f;
+}
+input.footer_zipcode {
+	background: #FFF;
+	color: #1f1f1f;
+	float: right;
+	margin: 6px 0 40px 0;
+	width: 165px;
+	padding: 7px 0 8px 5px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-radius: 6px 6px 0 6px;
+	border-radius: 6px 6px 0 6px;
+}
+#footer .column.one form.visit_store button + a {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 0 12px;
+}
+#footer .column.one .shadow {
+	position: absolute;
+	background: transparent url(../images/zip-shadow.png) no-repeat;
+	width: 4px;
+	height: 4px;
+	right: 2px;
+	top: 62px;
+}
+#footer .column.two {
+	width: 300px;
+	margin: 0px 40px 0 0;
+}
+#footer .column.two .section {
+	float: left;
+	clear: both;
+	width: 300px;
+}
+#footer .column.two .section.first {
+	margin-bottom: 20px;
+}
+#footer .column.two .fs11 {
+	margin-bottom: -5px;
+}
+#footer .column.two p strong {
+	font-size: 14px;
+	color: #1f1f1f;
+}
+#footer .column.two p {
+	font-size: 11px;
+	color: #1f1f1f;
+	line-height: 17px;
+	float: left;
+	width: 150px;
+}
+#footer .column.two p a {
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 22px;
+}
+#footer .column.two .image_holder_footer {
+	float: right;
+}
+#footer .column.two .image_holder_footer img {
+}
+#footer #successMessageEmail,#successPassword {
+	background-color: #F2FFF3;
+	border: 1px solid #ADDFB1;
+	border-radius: 3px 3px 3px 3px;
+	color: #60BD67;
+	display: none;
+	font-size: 11px;
+	margin: 15px 0 50px;
+	padding: 18px 35px 18px 49px;
+	position: relative;
+}
+#successPassword {
+	clear: both;
+	background: none;
+	border: none;
+	margin-bottom: 0;
+}
+#footer #successMessageEmail span,#successPassword span {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: transparent url(../images/sprites/lc_site_sprite_topleft.png) -535px -185px no-repeat;
+	left: 15px;
+	position: absolute;
+	top: 12px;
+}
+#footer .column.three form.section {
+	float: left;
+	margin: 0px 0 25px 0;
+}
+#footer .column.three .section {
+	float: left;
+	clear: both;
+	margin: 0px;
+}
+#footer .column.three .section .facebookStuff a.facebook-icon-footer {
+	float: left;
+	margin: 4px 6px 0 0;
+}
+#footer .column.three .section p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #1f1f1f;
+	line-height: 18px;
+}
+#footer .column.three .section label {
+	float: left;
+	font-weight: bold;
+	font-size: 12px;
+	color: #1f1f1f;
+	line-height: 18px;
+}
+#footer .column.three .fe {
+	position: relative;
+	clear: both;
+}
+#footer .column.three label span {
+	font-weight: normal;
+	font-size: 11px;
+	color: #1f1f1f;
+	line-height: 20px;
+}
+#footer .column.three form.section label.certify {
+	font-size: 11px;
+	color: #1f1f1f;
+	margin: 0px 0 0 5px;
+	font-weight: normal;
+}
+#footer .column.three form.section label {
+	font-weight: bold;
+	color: #1f1f1f;
+	float: left;
+	font-size: 12px;
+	font-family: Verdana;
+}
+#footer .column.three form.section input.footer_email_signup {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 6px 6px 6px 6px;
+	padding: 7px 44px 8px 5px;
+	margin: 4px 0 8px 0;
+	width: 249px;
+	float: left;
+	clear: both;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+/*#footer .column.three form.section input#eighteen_older {
+	float: left;
+	border: 1px solid #CAC9C6;
+}*/
+#footer .column.three label[for="email"] {
+	font-size: 11px;
+}
+#footer .column.one ul.language {
+	float: left;
+	clear: both;
+}
+#footer .column.one ul.language li.selected {
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	background: #FFF;
+	border-radius: 6px 6px 6px 6px;
+	color: #9D9D9D;
+	font-size: 11px;
+	padding: 4px 5px 4px 5px;
+	margin: 4px 0 8px 0;
+	width: 160px;
+	float: left;
+	clear: both;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#footer .column.one ul.language li a span {
+	float: right;
+	display: block;
+	background: url('../images/sprites/lc_site_sprite_topleft.png') no-repeat 5px -378px;
+	width: 24px;
+	height: 18px;
+}
+#footer .column.one ul.language li a {
+	font-size: 11px;
+	background: url('../images/sprites/lc_site_sprite_topleft.png') no-repeat;
+	display: block;
+	float: left;
+	color: #1f1f1f!important;
+	padding: 2px 0 0 25px;
+	width: 135px;
+}
+#footer .column.one ul.language li a:hover {
+	color: #2b6c91 !important;
+}
+#footer .column.one ul.language li a.us_flag {
+	background-position: 2px -357px;
+}
+#footer .column.one ul.language li a.ca_flag {
+	background: transparent url(../images/assets/ca-flag.png) 2px 3px no-repeat;
+}
+#footer .column.one .section p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #1f1f1f;
+	line-height: 18px;
+}
+#footer .column.one .section label {
+	float: left;
+	font-weight: bold;
+	font-size: 12px;
+	color: #1f1f1f;
+	line-height: 18px;
+	margin-top: 19px;
+}
+#footer .column.one .section label#languageLabel {
+	margin-top: 36px;
+}
+#footer .column.three {
+	width: 300px;
+}
+#footer .column.three h3 + a {
+	display: inline-block;
+	margin: 0 0 14px;
+}
+#footer .column.below {
+	width: 100%;
+	clear: both;
+	padding: 4px 0;
+	border-top: 1px solid #CAC9C6;
+	border-bottom: 1px solid #CAC9C6;
+	background-color: #fbfeff;
+}
+#footer .column.below ul {
+}
+#footer .column.below ul.right {
+	float: right;
+}
+#footer .column.below ul li.eye_heart_lc {
+	text-indent: -9999px;
+	background: url('../images/sprites/lc_site_sprite_topleft.png') no-repeat 0 -335px;
+	width: 76px;
+	height: 18px;
+	margin: 0px;
+}
+#footer .column.below ul li {
+	float: left;
+	color: #999;
+	margin: 3px 0 0 0;
+	font-weight: bold;
+	font-size: 10px;
+}
+#footer .column.below ul li a.last {
+	border-right: none;
+	padding-right: 0;
+}
+#footer .column.below ul li a {
+	border-right: 1px solid #6EABCE;
+	padding: 0px 8px;
+	font-weight: bold;
+	font-size: 10px;
+	display: block;
+}
+#footer #emailSuccessMessage {
+	clear: both;
+	float: left;
+	font-size: 11px;
+	color: #000;
+	display: none;
+}
+#footer #store_search_form {
+	margin: 30px 0 0 0;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+#footer #store_search_form strong,#footer #selected_store strong {
+	color: #1F1F1F;
+	font-size: 12px;
+	display: block;
+	margin: 0 0 5px;
+}
+#footer #selected_store {
+	float: left;
+	clear: both;
+	margin: 30px 0 0;
+}
+#footer #selected_store img,#footer #store_search_form img {
+	float: left;
+}
+#footer #selected_store .store_info {
+	width: 175px;
+	float: left;
+	font-size: 11px;
+	color: #838383;
+	margin: 0 0 0 12px;
+}
+#footer #selected_store .store_info div {
+	display: block;
+	margin: 0 0 2px;
+}
+#footer #selected_store .store_info #footer_store_phone {
+	margin: 0 0 12px;
+}
+#footer #footer_store_name {
+	color: #1f1f1f;
+	font-weight: bold;
+}
+#footer #selected_store .store_info a {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 4px;
+	display: block;
+}
+#footerDoctorNotice h2 {
+	font-size: 18px;
+}
+#footerDoctorNotice p {
+	font-size: 13px;
+	line-height: 17px;
+	padding: 10px 0 0;
+}
+#footerDoctorNotice .star {
+	color: #f4791f;
+}
+#footer .user-locale {
+	clear: both;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/****CSS for Dropdown****/
+
+#footer-last-section .nav {
+	list-style: none;
+	font-weight: bold;
+	margin-bottom: 10px;
+	float: left; /* Clear floats */
+/* Bring the nav above everything else--uncomment if needed.
+	position: relative;
+	z-index: 5;
+*/
+}
+
+#footer-last-section .nav li {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	display: flex;
+	align-items:  center;
+}
+
+#footer-last-section .nav a {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 5px;
+	color: #4d8eca;
+	font-weight:  normal;
+	text-decoration: none;
+	font-family: FuturaBQMedium;
+}
+
+/*—- DROPDOWN—-*/
+
+#footer-last-section .nav ul {
+	background: rgba(255,255,255,100);
+	list-style: none;
+	position: absolute;
+	bottom: 100%;
+	padding: 8px;
+	display:  flex;
+	flex-flow:  column;
+	width: 96px;
+	height: 115px;
+	left: -73px;
+	background-color: #fbfeff;
+}
+
+#footer-last-section.nav ul li {
+	padding-top: 1px;
+	float: none;
+}
+
+#footer-last-section .nav ul a {
+	white-space: nowrap;
+	font-family: FuturaBQMedium;
+	font-weight: normal;
+}
+
+#footer-last-section .nav li ul {
+	left: -73px;
+}
+
+#footer-last-section .nav li ul a {
+	text-decoration: none;
+}
+
+#footer-last-section .nav li ul li a{
+	color: #2b6c91;
+}
+
+#footer-last-section .flag-icon-us {
+	background: url(https://luxotticalenscrafters.mpeasylink.com/mpel/img/flag-icon-us.png) no-repeat;
+	width: 17px;
+	height: 10px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+	/* padding: 15px 5px 0px; */
+}
+#footer-last-section .flag-icon-pr {
+	background: url(https://luxotticalenscrafters.mpeasylink.com/mpel/img/flag-icon-pr.png) no-repeat;
+	width: 17px;
+	/* height: 10px; */
+	display: block;
+	float: left;
+	padding: 15px 5px 10px;
+}
+
+#footer-last-section .flag-icon-ca {
+	background: url(https://luxotticalenscrafters.mpeasylink.com/mpel/img/flag-icon-ca.png) no-repeat;
+	width: 17px;
+	height: 10px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+	/* padding: 15px 5px 10px; */
+}

@@ -1,0 +1,12 @@
+/* .exp_row.exp_hero_shop .exp_espot_graphic img {
+  width: 45%!important;
+} */
+
+.exp_row.exp_hero_shop .exp_espot_graphic {
+  width: 248px;
+  height: 74.22px;
+}
+
+.exp_row.exp_hero_shop .exp_espot_graphic #img-char {
+  width: 67%!important;
+}
