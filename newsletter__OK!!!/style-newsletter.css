@@ -1,0 +1,659 @@
+.footer-mailing-box {
+  background-color: #fbfeff;
+  height: 127px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: block;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana;
+  background-repeat: repeat-x;
+  -webkit-appearance: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html {
+  overflow-y: scroll;
+  font-family: Verdana, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  color: -internal-root-color;
+}
+
+.footer-mailing-box .mail {
+  background-image: url(images/mail-icon.png);
+  background-size: 97%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 41.9px;
+  height: 33px;
+  margin: -3px 0 0 -47px;
+}
+
+.footer-mailing-box div:first-child p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+}
+
+body p {
+  line-height: 19px;
+}
+
+p, li {
+  color: #1f1f1f;
+}
+
+a, fieldset, form, h1, h2, h3, h4, h5, h6, p, li, ol, ul, body, html, tr, td, img {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footer-mailing-box div:first-child {
+  margin-right: 40.5px;
+}
+
+.emailOffer {
+  max-height: 110px;
+}
+
+div {
+  display: block;
+}
+
+#emailSignup {
+  width: 325px;
+}
+
+a, fieldset, form, h1, h2, h3, h4, h5, h6, p, li, ol, ul, body, html, tr, td, img {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+a, fieldset, form, h1, h2, h3, h4, h5, h6, p, li, ol, ul, body, html, tr, td, img {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.footer-mailing-box #emailSignup input.footer_email_signup {
+  /* width: 209px; */
+  height: 30px!important;
+  border-radius: 2px;
+  background-color: #ffffff;
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #707070;
+  padding-left: 10px!Important;
+  box-sizing: border-box;
+}
+
+#temp_signinPassword, input[type="text"].blur, #temp_logonPassword3, #temp_logonPassword2, #temp_logonPasswordVerify2, #temp_signinPassword_session {
+  color: #707070;
+}
+
+#temp_signinPassword, input[type="text"].blur, #temp_logonPassword3, #temp_logonPassword2, #temp_logonPasswordVerify2, #temp_signinPassword_session {
+  color: #707070;
+}
+
+input[type="text"], input[type="password"], textarea {
+  border: 1px solid #e1e1e1;
+  color: #1f1f1f;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+input {
+  font-size: 15px;
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+}
+
+.blue.button.go.email {
+  line-height: 27px !important;
+  padding: 0;
+}
+
+button.go.email {
+  /* background: url(../images/sprites/lc_site_sprite_topleft.png) no-repeat -489px -272px; */
+  position: relative;
+  top: 0;
+  right: -7px;
+  width: 85px;
+  height: 28px;
+  color: #FFF;
+  background-color: #326fa8;
+  border-radius: 3px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center
+}
+
+.blue.button {
+  position: relative;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: auto;
+  display: inline-block;
+  color: #FFF;
+  line-height: 32px !important;
+  padding: 0;
+  border: none;
+}
+
+button.go {
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+}
+
+button, .button, input[type="submit"] {
+  cursor: pointer;
+  font-family: 'FuturaBQBold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+button {
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+}
+
+button {
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  color: buttontext;
+  background-color: buttonface;
+  box-sizing: border-box;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+}
+
+button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+button {
+  -webkit-writing-mode: horizontal-tb !important;
+}
+
+button {
+  -webkit-appearance: button;
+}
+
+#footer_wrapper .control__indicator {
+  position: relative;
+  top: -17px;
+  left: -28px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  opacity: 1;
+  margin-left: 0!important;
+}
+
+.footer-mailing-box div:nth-child(2) {
+  margin-left: 40.5px;
+  align-self: flex-end;
+}
+
+div {
+  display: block;
+}
+
+.footer-mailing-box #emailSignup label.certify {
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+  position: relative;
+  top: -4px;
+}
+
+.footer-mailing-box div.fe.email label, .footer-mailing-box div.fe label {
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+}
+
+.control {
+  font-size: 18px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #5a5a5a;
+  left: 27px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #1f1f1f;
+}
+
+label {
+  cursor: default;
+}
+
+.footer-mailing-box #emailSignup label.certify {
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+  position: relative;
+  top: -4px;
+}
+
+.footer-mailing-box div.fe label {
+  display: block;
+}
+
+.footer-mailing-box div.fe.email label, .footer-mailing-box div.fe label {
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+}
+
+.control {
+  font-size: 18px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #5a5a5a;
+  left: 27px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #1f1f1f;
+}
+
+.footer-mailing-box input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: #ffffff!important;
+  border: 1px solid;
+  position: absolute;
+  clip: rect(0,0,0,0);
+  display: block;
+  left: -32px;
+  top: 0;
+  margin-top: 0;
+  opacity: 1;
+}
+
+.footer-mailing-box input[type="checkbox"] {
+  width: 13px;
+  height: 14px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  top: 12px;
+  margin-top: 7px;
+  border: 1px solid;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+input {
+  font-size: 15px;
+}
+
+input[type="checkbox" i] {
+  -webkit-appearance: checkbox;
+  box-sizing: border-box;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  margin: 3px 0.5ex;
+  padding: initial;
+  border: initial;
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+}
+.footer-mailing-box #emailSignup label.certify {
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+  position: relative;
+  top: -4px;
+}
+.footer-mailing-box div.fe.email label, .footer-mailing-box div.fe label {
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1f1f1f;
+}
+
+.control {
+  font-size: 18px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #5a5a5a;
+  left: 27px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #1f1f1f;
+}
+
+label {
+  cursor: default;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana;
+  background-repeat: repeat-x;
+  -webkit-appearance: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.footer-mailing-box #emailSignup input.footer_email_signup {
+  width: 209px;
+  height: 30px!important;
+  border-radius: 2px;
+  background-color: #ffffff;
+  /* font-family: FuturaBQBook; */
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #707070;
+  padding-left: 10px!Important;
+  box-sizing: border-box;
+}
+
+#temp_signinPassword, input[type="text"].blur, #temp_logonPassword3, #temp_logonPassword2, #temp_logonPasswordVerify2, #temp_signinPassword_session {
+  color: #707070;
+}
+
+#temp_signinPassword, input[type="text"].blur, #temp_logonPassword3, #temp_logonPassword2, #temp_logonPasswordVerify2, #temp_signinPassword_session {
+  color: #707070;
+}
+
+input.required, input.error {
+  border: 1px solid #C00;
+}
+
+input[type="text"], input[type="password"], textarea {
+  border: 1px solid #e1e1e1;
+  color: #1f1f1f;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+input {
+  font-size: 15px;
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+}
+
+.footer-mailing-box input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: #ffffff!important;
+  border: 1px solid;
+  position: absolute;
+  clip: rect(0,0,0,0);
+  display: block;
+  left: -32px;
+  top: 0;
+  margin-top: 0;
+  opacity: 1;
+}
+
+.footer-mailing-box input[type="checkbox"] {
+  width: 13px;
+  height: 14px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  top: 12px;
+  margin-top: 7px;
+  border: 1px solid;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+input.required, input.error {
+  border: 1px solid #C00;
+}
+
+input {
+  font-size: 15px;
+}
+
+input[type="checkbox" i] {
+  -webkit-appearance: checkbox;
+  box-sizing: border-box;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  margin: 3px 0.5ex;
+  padding: initial;
+  border: initial;
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+}
+
+.control__indicator {
+  position: relative;
+  top: -17px;
+  left: -28px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  opacity: 1;
+  margin-left: 0!important;
+}

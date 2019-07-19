@@ -1,0 +1,130 @@
+#header_wrapper {
+  width: 100%;
+  padding: 0px 0 0 0;
+  display: inline-block;
+  min-height: 120px;
+}
+
+#header {
+  width: 990px;
+  /* margin: 0 0 0 -495px; */
+  margin: 0 auto;
+  margin-top: 16px;
+  /* position: absolute; */
+  /* padding: 15px 0 0; */
+  z-index: 9600;
+  /* left: 50%; */
+  display: table;
+}
+
+#header_links {
+  font-size: 13px;
+  color: #ad8700;
+  clear: both;
+  float: left;
+  width: 990px;
+  margin: 4px 0 5px;
+  position: relative;
+  z-index: 1000;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul#left-nav-header {
+  float: left;
+  margin: 0;
+  border-top: none;
+  border-bottom: none;
+}
+
+li {
+  margin: 0;
+  color: #1f1f1f;
+}
+
+body li {
+  line-height: 19px !important;
+}
+
+ul#left-nav-header li.top-level {
+  position: relative;
+  float: left;
+  padding: 14px 0 13px 15px;
+}
+
+ul#left-nav-header li.top-level.eyeglasses, ul#left-nav-header li.top-level.sunglasses, ul#left-nav-header li.top-level.brand, ul#left-nav-header li.top-level.trend, ul#left-nav-header li.top-level.exam, ul#left-nav-header li.top-level.savings, ul#left-nav-header li.top-level.contact-lenses {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+ul#left-nav-header li.top-level.eyeglasses, ul#left-nav-header li.top-level.sunglasses, ul#left-nav-header li.top-level.brand, ul#left-nav-header li.top-level.trend, ul#left-nav-header li.top-level.exam, ul#left-nav-header li.top-level.savings {
+  padding-right: 13px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+body a {
+  line-height: 19px;
+  cursor: pointer;
+}
+
+ul#left-nav-header li.top-level > a {
+  z-index: 1001;
+}
+
+
+
+ul#left-nav-header li.top-level a, ul#left-nav-header li.top-level ul li.column.links a {
+  font-weight: normal;
+  font-family: 'FuturaBQBold', Arial, Helvetica, sans-serif;
+  float: left;
+  display: block;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+ul#left-nav-header li.top-level a {
+  font-size: 14px;
+}
+
+ul#left-nav-header li.top-level > a {
+  margin: 0 34px 0 0;
+  padding: 0;
+  position: relative;
+  color: rgb(90, 90, 90);
+}
+
+.arrow-dwn {
+  height: 5px;
+  width: 5px;
+  border: 1px solid rgb(90, 90, 90);
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.subnav-arrow-eyeglasses, .subnav-arrow-sunglasses, .subnav-arrow-brand, .subnav-arrow-trend, .subnav-arrow-exam, .subnav-arrow-savings, .subnav-arrow-contact-lenses {
+  display: none;
+  position: absolute;
+  top: 30px!important;
+  left: 34px;
+  z-index: 99999;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #f8f8f8;
+}
+
+.top-level.contact-lenses a.color {
+  color: rgb(50, 111, 168) !important;
+}
